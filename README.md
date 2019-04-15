@@ -10,3 +10,7 @@ Part 7 - Natural Language Processing: Bag-of-words model and algorithms for NLP
 Part 8 - Deep Learning: Artificial Neural Networks, Convolutional Neural Networks
 Part 9 - Dimensionality Reduction: PCA, LDA, Kernel PCA
 Part 10 - Model Selection & Boosting: k-fold Cross Validation, Parameter Tuning, Grid Search, XGBoost
+
+Created by Kirill Eremenko, Hadelin de Ponteves, SuperDataScience Team, SuperDataScience Support
+
+Rresources - https://www.superdatascience.com/pages/machine-learning
