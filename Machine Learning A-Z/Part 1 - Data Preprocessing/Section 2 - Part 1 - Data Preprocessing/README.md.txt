@@ -1,21 +1,89 @@
+--------------------------------------------------------------------------------------------------
+SECTION 2 - DATA PREPROCESSING
+--------------------------------------------------------------------------------------------------
 https://www.superdatascience.com/
-11. GET THE DATASET
+11. Get The Dataset
 Identify independent variables to predict dependant variables
 Country,Age,Salary - IV
 Purchased - DV
-
+--------------------------------------------------------------------------------------------------
 12. Importing the Libraries
-import numpy as np
-import matplotlib.pyplot as plt
-import pandas as pd
+	import numpy as np
+	import matplotlib.pyplot as plt
+	import pandas as pd
 No libraries to be imported in R
-
+--------------------------------------------------------------------------------------------------
 13. Importing Dataset
-dataset = pd.read_csv('Data.csv')
-dataset = read.csv('Data.csv')
-
+	dataset = pd.read_csv('Data.csv')
+	dataset = read.csv('Data.csv')
+	X = dataset.iloc[:, :-1].values
+	y = dataset.iloc[:, 3].values
+--------------------------------------------------------------------------------------------------
 15. Missing Data
-Remove the row OR
-Insert MEAN
-from sklearn.preprocessing import Imputer
 (ctrl + I to get HELP)
+Remove the row OR Insert MEAN
+P:	from sklearn.preprocessing import Imputer
+	imputer = Imputer(missing_values = 'NaN', strategy = 'mean', axis = 0)
+		[axis = 0 for Columns, 1 for rows
+		strategy = 'mean' by default
+		missing_values = Value the need to be replaced]
+	imputer = imputer.fit(X[:, 1:3])
+	X[:, 1:3] = imputer.transform(X[:, 1:3])
+
+R:	dataset$Age = ifelse(is.na(dataset$Age),
+				  ave(dataset$Age, FUN = function(x) mean(x, na.rm = TRUE)),
+				  dataset$Age)
+--------------------------------------------------------------------------------------------------
+16. Categorical Data
+Country and Purchased
+Encode Text(France/Spain/Germany , Yes/No) into numbers(0/1/2 , 0/1)
+P:	from sklearn.preprocessing import LabelEncoder
+	labelEncoder_X = LabelEncoder()
+	X[:,0] = labelEncoder_X.fit_transform(X[:,0])
+But, this might lead to our ML algo consider France < Spain < Germany so we will do DUMMY ENCODING(OneHotEncoder)
+Convert One Column to Multiple Categorical Columns
+P:	from sklearn.preprocessing import LabelEncoder,OneHotEncoder
+
+	# Encoding the Independent Variable
+	labelEncoder_X = LabelEncoder()
+	X[:,0] = labelEncoder_X.fit_transform(X[:,0])
+	oneHotEncoder_X = OneHotEncoder(categorical_features= [0])
+	X = onehotencoder.fit_transform(X).toarray()
+
+	# Encoding the Dependent Variable
+	labelencoder_y = LabelEncoder()
+	y = labelencoder_y.fit_transform(y)
+
+R: 	dataset$Country = factor(dataset$Country,
+                         levels = c('France', 'Spain', 'Germany'),
+                         labels = c(1, 2, 3))
+	dataset$Purchased = factor(dataset$Purchased,
+                           levels = c('No', 'Yes'),
+                           labels = c(0, 1))
+--------------------------------------------------------------------------------------------------
+18. Splitting the Dataset into the Training set and Test set
+P:	# Splitting the dataset into the Training set and Test set
+	from sklearn.model_selection import train_test_split
+	X_train, X_test, y_train, y_test = train_test_split(X, y, test_size = 0.2, random_state = 0)
+R:	# install.packages('caTools')
+	library(caTools)
+	set.seed(123)
+	split = sample.split(dataset$Purchased, SplitRatio = 0.8)
+	training_set = subset(dataset, split == TRUE)
+	test_set = subset(dataset, split == FALSE)
+
+--------------------------------------------------------------------------------------------------
+19. Feature Scaling
+Eculidean Distance is used to plot data or compare data points
+So Salary is thousands and Age is 2 digit numbers and thus, feature Scaling is important to plot data properly.
+
+P:	from sklearn.preprocessing import StandardScaler
+	sc_X = StandardScaler()
+	X_train = sc_X.fit_transform(X_train)
+	X_test = sc_X.transform(X_test)
+
+R:	# Feature Scaling
+	#training_set = scale(training_set) # Error in colMeans(x, na.rm = TRUE) : 'x' must be numeric--> Because Purchased and Country are Factors Line 57 & 60
+	training_set[,2:3] = scale(training_set[,2:3])
+	
+	test_set[,2:3] = scale(test_set[,2:3])
