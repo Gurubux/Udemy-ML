@@ -13,7 +13,10 @@ Regression models (both linear and non-linear) are used for predicting a real va
 --------------------------------------------------------------------------------------------------
 SECTION 4 - Simple Linear Regression
 --------------------------------------------------------------------------------------------------
-Code explains it all
+Code 	- simple_linear_regression.py  
+DATASET - Salary Data
+GOAL 	- To predict SALARY based on YearsExperience
+
 --------------------------------------------------------------------------------------------------
 SECTION 5 - Multiple Linear Regression
 --------------------------------------------------------------------------------------------------

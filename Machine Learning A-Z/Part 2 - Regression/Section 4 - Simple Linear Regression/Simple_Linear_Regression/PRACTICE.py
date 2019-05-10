@@ -81,7 +81,6 @@ py.plot(data, filename='Simple Linear Regression 1')
 '''
 
 
-
 # Visualising the Test set results
 plt.scatter(X_test, y_test, color = 'red')
 plt.plot(X_train, regressor.predict(X_train), color = 'blue')
