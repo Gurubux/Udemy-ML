@@ -1,0 +1,44 @@
+-------------------------------------
+PROBABILITY IN NORMAL DENSITY CURVES
+-------------------------------------
+https://www.khanacademy.org/math/statistics-probability/random-variables-stats-library/random-variables-continuous/e/probability-normal-density-curves
+
+Calculating shaded area
+We can use the "normalcdf" function on most graphing calculators to find the shaded area:
+ 
+​	  
+normalcdf:
+lower bound: 26
+upper bound: 30
+μ=26
+σ=2
+​	 
+Output:
+~ 0.4772
+
+
+
+The calculator function "normalpdf" stands for normal probability density function. It finds the height of a normal curve at any given point.
+
+The "normalcdf" function stands for normal cumulative density function, and it finds the area below a normal curve between two given points.
+Since probability for a continuous random variable relates to shaded area under its density curve, we always use "normalcdf" to find probability when we're dealing with a normally distributed variable.
+
+
+We could use the standard normal table and z-scores to find this probability, or we could use the 68-95-99.7% rule since the boundaries fall exactly at the mean and two standard deviation above the mean:
+https://www.khanacademy.org/math/statistics-probability/random-variables-stats-library/random-variables-continuous/e/probability-normal-density-curves
+STANDARD NORMAL DISTRIBUTION Table - https://www.mathsisfun.com/data/standard-normal-distribution-table.html
+					    ______________  
+					   /    x - μ	 /
+P(X<K)	=		P(    / z < ______  /  )
+					 /	      σ	   / 
+					/_____________/
+
+    					______________  
+					   /    73 - 70	 /
+P(X<73)	=		P(    / z < ______  /  )
+					 /	      6	   / 
+					/_____________/
+
+
+		=		P(   z < −0.5   )
+		≈       0.6915    (from table)

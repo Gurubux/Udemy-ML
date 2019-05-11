@@ -1,0 +1,18 @@
+-----------------------------------------------------------
+CHI-SQUARE(X²) TEST
+-----------------------------------------------------------
+		______________
+	   /   (O - E)²	 /
+X² =  / Σ   ______  /
+	 /	      E	   / 
+	/_____________/		   
+
+https://www.mathsisfun.com/data/chi-square-test.html
+
+CHI-SQUARE to PI-VALUE
+https://www.mathsisfun.com/data/chi-square-calculator.html
+
+CALCULATE DEGREES OF FREEDOM
+Multiply (rows − 1) by (columns − 1)
+
+Example: DF = (2 − 1)(2 − 1) = 1×1 = 1
