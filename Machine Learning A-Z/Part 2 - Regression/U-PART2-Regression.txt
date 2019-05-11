@@ -20,6 +20,10 @@ GOAL 	- To predict SALARY based on YearsExperience
 --------------------------------------------------------------------------------------------------
 SECTION 5 - Multiple Linear Regression
 --------------------------------------------------------------------------------------------------
+Step 1 : Consider the Assumptions that take place in any Linear Regression model
+
+Step 2 : If any Categorical Variable(Non-Numeric Column), create dummy variables for the same
+		(Note : Should not include all of your dummy variable columns, use N-1 dummy variables only. So if 3 Variables i.e NY, CA,LA then use any 2 only. (DUMMY VARIABLE TRAP))
 --------------------------------------------------------------------------------------------------
 SECTION 6 - Polynomial Regression
 --------------------------------------------------------------------------------------------------
