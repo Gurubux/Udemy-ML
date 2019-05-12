@@ -29,7 +29,7 @@ Step 3 : Perform Backword Elimination for building the model with appropriate va
 Step 3 : Fit
 Step 4 : Predict
 
-Refer - https://raw.githubusercontent.com/Gurubux/Udemy-ML/master/Machine%20Learning%20A-Z/Part%202%20-%20Regression/Section%205%20-%20Multiple%20Linear%20Regression/BackwardElimination.jpg
+WhiteBoard - Refer - https://raw.githubusercontent.com/Gurubux/Udemy-ML/master/Machine%20Learning%20A-Z/Part%202%20-%20Regression/Section%205%20-%20Multiple%20Linear%20Regression/BackwardElimination.jpg
 
 
 
