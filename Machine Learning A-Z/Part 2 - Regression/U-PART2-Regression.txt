@@ -26,9 +26,10 @@ Step 2 : If any Categorical Variable(Non-Numeric Column), create dummy variables
 		(Note : Should not include all of your dummy variable columns, use N-1 dummy variables only. So if 3 Variables i.e NY, CA,LA then use any 2 only. (DUMMY VARIABLE TRAP))
 Step 3 : Perform Backword Elimination for building the model with appropriate variables
 		Refer - https://raw.githubusercontent.com/Gurubux/Udemy-ML/master/Machine%20Learning%20A-Z/Part%202%20-%20Regression/Section%205%20-%20Multiple%20Linear%20Regression/Homework_Solutions/multiple_linear_regression_backwordElimination.py
+Step 3 : Fit
+Step 4 : Predict
 
-
-
+Refer - https://raw.githubusercontent.com/Gurubux/Udemy-ML/master/Machine%20Learning%20A-Z/Part%202%20-%20Regression/Section%205%20-%20Multiple%20Linear%20Regression/BackwardElimination.jpg
 
 
 
