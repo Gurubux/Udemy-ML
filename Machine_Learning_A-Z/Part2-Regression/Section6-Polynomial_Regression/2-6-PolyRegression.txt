@@ -1,0 +1,11 @@
+
+
+from sklearn.preprocessing import PolynomialFeatures
+poly_reg = PolynomialFeatures(degree = 4)
+X_poly = poly_reg.fit_transform(X)
+
+# Fitting the Regression Model to the dataset
+L_regressor_2 = LinearRegression()
+L_regressor_2.fit(X_poly,y)
+# Predicting a new result
+y_pred = L_regressor_2.predict(X_poly)
