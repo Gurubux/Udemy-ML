@@ -72,9 +72,7 @@ PolynomialFeatures(degree = 4)
 --------------------------------------------------------------------------------------------------
 SECTION 7 - Support Vector for Regression (SVR)
 --------------------------------------------------------------------------------------------------
-refer SupportVectorRegressionModel_SVR.odt
-
-
+refer SupportVectorRegressionModel_SVR.docx (https://github.com/Gurubux/Udemy-ML/raw/master/Machine_Learning_A-Z/Part2-Regression/Section7-SupportVectorRegression-SVR/SupportVectorRegressionModel_SVR.docx)
 
 
 --------------------------------------------------------------------------------------------------
