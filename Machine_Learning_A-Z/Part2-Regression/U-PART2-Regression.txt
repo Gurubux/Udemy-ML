@@ -74,19 +74,70 @@ SECTION 7 - Support Vector for Regression (SVR)
 --------------------------------------------------------------------------------------------------
 refer SupportVectorRegressionModel_SVR.docx (https://github.com/Gurubux/Udemy-ML/raw/master/Machine_Learning_A-Z/Part2-Regression/Section7-SupportVectorRegression-SVR/SupportVectorRegressionModel_SVR.docx)
 
+Code    - svr.py  
+DATASET - Position_Salaries.csv
+GOAL    - To predict whether the new Employee is bluffing or not about his salary - Truth/Bluff Detector
+
+Code    - PRACTICE-SVR.py
+DATASET - numpy generated data
+GOAL    - To observe 'RBF', 'Linear', 'Polynomial' kernels in SVR regrerssion
 
 --------------------------------------------------------------------------------------------------
 SECTION 8 - Decision Tree Classification
 --------------------------------------------------------------------------------------------------
+CART - https://www.youtube.com/watch?v=nWuUahhK3Oc
+Divide and conquer strategy, to divide the training data into subsets that are pure and pure OR more and more homogenous 
+
+1. SELECTING THE ROOT
+    Will go through all the predictors and select one that is most predictive of the target feature. That will be the root of our tree.
+    HOW ? by StdDev or Variance or sum of squares or absolute deviation are ways to measure the purity of resulting subgroups.
+    Using STD Deviation. 
+        a. Calculate the STD of the Target. STD(exam)
+        b. Calculate STD of the Target varable for each unique value of each independent variable.
+            STD(exam | tutorials = all)
+            STD(exam | tutorials = some)
+            STD(exam | labs = complete)
+            STD(exam | labs = partial)
+        c. Calculate COUNT of the Target varable for each unique value of each independent variable.
+            COUNT(exam | tutorials = all)
+            COUNT(exam | tutorials = some)
+            COUNT(exam | labs = complete)
+            COUNT(exam | labs = partial)
+        d. Calculate the WEIGHTED STD for each independent variable.
+            WEIGHTED STD(tutorials) = [ STD(exam | tutorials = all) * COUNT(exam | tutorials = all) / 15 ] + [ STD(exam | tutorials = some) * COUNT(exam | tutorials = some) / 15 ]
+            WEIGHTED STD(labs) = [ STD(exam | labs = complete) * COUNT(exam | labs = complete) / 15 ] + [ STD(exam | labs = partial) * COUNT(exam | labs = partial) / 15 ]
+        e. Calculate STDReduction of each independent variable.
+           STDReduction(tutorials)   =  STD(exam) - WEIGHTED STD(tutorials)
+           STDReduction(labs)        =  STD(exam) - WEIGHTED STD(labs)
+
+        The greatest of each independent variable's STDReduction will be more prominent in predicting the Target variable and be chosen as the ROOT
+
+2. PREDICTION
+             | ROOT |                                         |     labs    |
+          x /       \ y                   --->      complete /               \ partial
+           /         \                                      /                 \
+AVG(TV | ROOT = x) AVG(TV | ROOT = y)                      /                   \
+                                                          /                     \
+                                       AVG(exam | labs = complete)            AVG(exam | labs = partial)
+
+
+
+
+
+
+
 --------------------------------------------------------------------------------------------------
 SECTION 9 - Random Forest Classification
 --------------------------------------------------------------------------------------------------
+
 --------------------------------------------------------------------------------------------------
 SECTION 10 - Evaluating Regression Models Performance
 --------------------------------------------------------------------------------------------------
+
 --------------------------------------------------------------------------------------------------
 SECTION 11 - Regularization Methods
 --------------------------------------------------------------------------------------------------
+
 --------------------------------------------------------------------------------------------------
 SECTION 12 - Part Recap
 --------------------------------------------------------------------------------------------------
