@@ -85,7 +85,17 @@ GOAL    - To observe 'RBF', 'Linear', 'Polynomial' kernels in SVR regrerssion
 --------------------------------------------------------------------------------------------------
 SECTION 8 - Decision Tree Classification
 --------------------------------------------------------------------------------------------------
+Code    - svr.py  
+DATASET - Position_Salaries.csv
+GOAL    - To predict whether the new Employee is bluffing or not about his salary - Truth/Bluff Detector
+
+
 CART - https://www.youtube.com/watch?v=nWuUahhK3Oc
+CART - Splitting https://raw.githubusercontent.com/Gurubux/Udemy-ML/master/Machine_Learning_A-Z/Part2-Regression/Section8-DecisionTreeRegression/CART-Splitting.PNG
+CART - Decision Tree https://raw.githubusercontent.com/Gurubux/Udemy-ML/master/Machine_Learning_A-Z/Part2-Regression/Section8-DecisionTreeRegression/CART-DT.PNG
+https://raw.githubusercontent.com/Gurubux/Udemy-ML/master/Machine_Learning_A-Z/Part2-Regression/Section8-DecisionTreeRegression/CART-DT_Splitting.png
+
+
 Divide and conquer strategy, to divide the training data into subsets that are pure and pure OR more and more homogenous 
 
 1. SELECTING THE ROOT
@@ -121,8 +131,9 @@ AVG(TV | ROOT = x) AVG(TV | ROOT = y)                      /                   \
                                        AVG(exam | labs = complete)            AVG(exam | labs = partial)
 
 
+Also DT Regression does the splitting(criterion) based on "MSE" or "MAE" or "FRIEDMAN_MSE"
 
-
+Also DT Classifier does the splitting(criterion) based on "Entropy" for Information Gain OR 'gini' for gini impurities
 
 
 

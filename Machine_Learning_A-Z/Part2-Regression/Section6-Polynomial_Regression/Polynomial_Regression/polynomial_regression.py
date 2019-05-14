@@ -32,7 +32,7 @@ X_poly = poly_reg.fit_transform(X)
 poly_reg.fit(X_poly, y)
 lin_reg_2 = LinearRegression()
 lin_reg_2.fit(X_poly, y)
-
+"""
 # Visualising the Linear Regression results
 plt.scatter(X, y, color = 'red')
 plt.plot(X, lin_reg.predict(X), color = 'blue')
@@ -58,13 +58,14 @@ plt.title('Truth or Bluff (Polynomial Regression)')
 plt.xlabel('Position level')
 plt.ylabel('Salary')
 plt.show()
-
+"""
 # Predicting a new result with Linear Regression
 lin_reg.predict(6.5)
 
 # Predicting a new result with Polynomial Regression
 lin_reg_2.predict(poly_reg.fit_transform(6.5))
 
-from sklearn.metrics import mean_squared_error,r2_score
-print("Poly LR MSE -> ",mean_squared_error(y,lin_reg_2.predict(poly_reg.fit_transform(X))))
-print("Poly LR r2_score -> ",r2_score(y,lin_reg_2.predict(poly_reg.fit_transform(X))))
+from sklearn.metrics import mean_squared_error,r2_score,mean_absolute_error
+print("Poly LR MAE -> ",mean_absolute_error(y,lin_reg_2.predict(poly_reg.transform(X))))
+print("Poly LR MSE -> ",mean_squared_error(y,lin_reg_2.predict(poly_reg.transform(X))))
+print("Poly LR r2_score -> ",r2_score(y,lin_reg_2.predict(poly_reg.transform(X))))

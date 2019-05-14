@@ -103,7 +103,7 @@ print("Poly LR r2_score -> ",r2_score(y,y_pred))
 print("lin_reg.predict 6.5 ",lin_reg.predict(6.5))
 
 # Predicting a new result with Polynomial Regression
-print("lin_reg_2.predict 6.5 ",lin_reg_2.predict(poly_reg.fit_transform(6.5)))
+print("lin_reg_2.predict 6.5 ",lin_reg_2.predict(poly_reg.transform(6.5)))
 
 
 
