@@ -149,10 +149,15 @@ Bias-Variance Trade Off
 Ensemble - Bagging
 Random Forest 
 
+
+
 --------------------------------------------------------------------------------------------------
 SECTION 10 - Evaluating Regression Models Performance
 --------------------------------------------------------------------------------------------------
-
+- R-Squared Intuition
+- Adjusted R-Squared Intuition
+- Evaluating Regression Models Performance - Homework's Final Part
+- Interpreting Linear Regression Coefficients
 --------------------------------------------------------------------------------------------------
 SECTION 11 - Regularization Methods
 --------------------------------------------------------------------------------------------------
