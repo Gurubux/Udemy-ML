@@ -25,6 +25,7 @@ GOAL 	- To predict SALARY based on YearsExperience
 --------------------------------------------------------------------------------------------------
 SECTION 5 - Multiple Linear Regression 
 --------------------------------------------------------------------------------------------------
+Linear Model
     ____________________________________
    / y = b₀ + b₁X₁ + b₂X₂ .... bₙXₙ    /
   /__________________________________/
@@ -52,10 +53,10 @@ https://raw.githubusercontent.com/Gurubux/Udemy-ML/master/Machine_Learning_A-Z/P
 --------------------------------------------------------------------------------------------------
 SECTION 6 - Polynomial Regression ⁰¹²³ⁿ ₀₁₂₃ₙ
 --------------------------------------------------------------------------------------------------
-    ___________________________________
+ Non-Linear Model Regressors
+   ___________________________________
    / y = b₀ + b₁X₁ + b₂X₁² .... bₙX₁ⁿ /
   /__________________________________/
-Non-Linear Regressors
 
 
 
@@ -72,6 +73,7 @@ PolynomialFeatures(degree = 4)
 --------------------------------------------------------------------------------------------------
 SECTION 7 - Support Vector for Regression (SVR)
 --------------------------------------------------------------------------------------------------
+Non-Linear Model
 refer SupportVectorRegressionModel_SVR.docx (https://github.com/Gurubux/Udemy-ML/raw/master/Machine_Learning_A-Z/Part2-Regression/Section7-SupportVectorRegression-SVR/SupportVectorRegressionModel_SVR.docx)
 
 Code    - svr.py  
@@ -85,6 +87,7 @@ GOAL    - To observe 'RBF', 'Linear', 'Polynomial' kernels in SVR regrerssion
 --------------------------------------------------------------------------------------------------
 SECTION 8 - Decision Tree Classification
 --------------------------------------------------------------------------------------------------
+Non-Linear and Non Continous regression Model
 Code    - svr.py  
 DATASET - Position_Salaries.csv
 GOAL    - To predict whether the new Employee is bluffing or not about his salary - Truth/Bluff Detector
@@ -140,6 +143,11 @@ Also DT Classifier does the splitting(criterion) based on "Entropy" for Informat
 --------------------------------------------------------------------------------------------------
 SECTION 9 - Random Forest Classification
 --------------------------------------------------------------------------------------------------
+Non-Linear and Non Continous regression Model
+
+Bias-Variance Trade Off
+Ensemble - Bagging
+Random Forest 
 
 --------------------------------------------------------------------------------------------------
 SECTION 10 - Evaluating Regression Models Performance
@@ -148,7 +156,9 @@ SECTION 10 - Evaluating Regression Models Performance
 --------------------------------------------------------------------------------------------------
 SECTION 11 - Regularization Methods
 --------------------------------------------------------------------------------------------------
-
+Lasso
+Ridge
+ElasticNet
 --------------------------------------------------------------------------------------------------
 SECTION 12 - Part Recap
 --------------------------------------------------------------------------------------------------
