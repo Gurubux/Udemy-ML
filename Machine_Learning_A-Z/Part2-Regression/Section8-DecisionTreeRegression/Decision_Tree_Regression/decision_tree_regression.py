@@ -32,7 +32,7 @@ regressor.fit(X, y)
 y_pred_ = regressor.predict(X)
 
 y_pred = regressor.predict(6.5)
-"""
+
 # Visualising the Decision Tree Regression results (higher resolution)
 X_grid = np.arange(min(X), max(X), 0.01)
 X_grid = X_grid.reshape((len(X_grid), 1))
@@ -42,7 +42,6 @@ plt.title('Truth or Bluff (Decision Tree Regression)')
 plt.xlabel('Position level')
 plt.ylabel('Salary')
 plt.show()
-"""
 
 
 from sklearn.metrics import mean_squared_error,r2_score,mean_absolute_error

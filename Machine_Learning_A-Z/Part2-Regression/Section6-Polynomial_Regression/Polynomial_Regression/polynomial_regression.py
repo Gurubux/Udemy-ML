@@ -32,7 +32,7 @@ X_poly = poly_reg.fit_transform(X)
 poly_reg.fit(X_poly, y)
 lin_reg_2 = LinearRegression()
 lin_reg_2.fit(X_poly, y)
-"""
+
 # Visualising the Linear Regression results
 plt.scatter(X, y, color = 'red')
 plt.plot(X, lin_reg.predict(X), color = 'blue')
@@ -58,7 +58,7 @@ plt.title('Truth or Bluff (Polynomial Regression)')
 plt.xlabel('Position level')
 plt.ylabel('Salary')
 plt.show()
-"""
+
 # Predicting a new result with Linear Regression
 lin_reg.predict(6.5)
 

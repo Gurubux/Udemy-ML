@@ -146,10 +146,16 @@ SECTION 9 - Random Forest Classification
 Non-Linear and Non Continous regression Model
 
 Bias-Variance Trade Off
-Ensemble - Bagging
+Ensemble - Bagging, Boosting and regularization
 Random Forest 
 
+Bias-Variance     - https://raw.githubusercontent.com/Gurubux/Udemy-ML/master/Machine_Learning_A-Z/Part2-Regression/Section9-RandomForestRegression/Bias-Variance.txt
 
+Ensemble Learning - When you take multiple algorithms or the same algorithm multiple times and you put them together to make something more powerful then 
+                    the orginal
+
+Steps to perform  - https://raw.githubusercontent.com/Gurubux/Udemy-ML/master/Machine_Learning_A-Z/Part2-Regression/Section9-RandomForestRegression/Steps_RF.PNG
+Random Forest  
 
 --------------------------------------------------------------------------------------------------
 SECTION 10 - Evaluating Regression Models Performance

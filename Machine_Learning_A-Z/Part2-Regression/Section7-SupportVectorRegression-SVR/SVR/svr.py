@@ -33,7 +33,7 @@ y_pred_ = sc_y.inverse_transform(y_pred_)
 
 y_pred = regressor.predict(sc_X.transform(np.array([[6.5]])))
 y_pred = sc_y.inverse_transform(y_pred)
-"""
+
 # Visualising the SVR results
 plt.scatter(X, y, color = 'red')
 plt.plot(X, regressor.predict(X), color = 'blue')
@@ -51,7 +51,7 @@ plt.title('Truth or Bluff (SVR)')
 plt.xlabel('Position level')
 plt.ylabel('Salary')
 plt.show()
-"""
+
 
 from sklearn.metrics import mean_squared_error,r2_score,mean_absolute_error
 print("SVR MAE -> ",mean_absolute_error(np.sort(sc_y.inverse_transform(y).reshape((1,-1)).ravel()),np.sort(y_pred_)))
