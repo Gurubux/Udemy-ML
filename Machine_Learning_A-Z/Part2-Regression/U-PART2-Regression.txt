@@ -124,15 +124,17 @@ https://www.youtube.com/watch?v=nWuUahhK3Oc
            STDReduction(tutorials)   =  STD(exam) - WEIGHTED STD(tutorials)
            STDReduction(labs)        =  STD(exam) - WEIGHTED STD(labs)
 
-        The greatest of each independent variable's STDReduction will be more prominent in predicting the Target variable and be chosen as the ROOT
+        The GREATEST of each independent variable's STDReduction will be more prominent in predicting the Target variable and be chosen as the ROOT
 
 2. PREDICTION
              | ROOT |                                         |     labs    |
           x /       \ y                   --->      complete /               \ partial
            /         \                                      /                 \
-AVG(TV | ROOT = x) AVG(TV | ROOT = y)                      /                   \
+AVG(TgtV | ROOT = x) AVG(TgtV | ROOT = y)                  /                   \
                                                           /                     \
                                        AVG(exam | labs = complete)            AVG(exam | labs = partial)
+
+3. If we have a third variable for the second node then do step 1 and 2 again https://www.youtube.com/watch?v=nSaOuPCNvlk
 
 
 Also DT Regression does the splitting(criterion) based on "MSE" or "MAE" or "FRIEDMAN_MSE"
