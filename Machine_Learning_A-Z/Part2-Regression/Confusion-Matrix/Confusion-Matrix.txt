@@ -1,0 +1,22 @@
+Confusion-Matrix - Tells what your ML algo did right and what it did wrong
+
+The size of the Confusion Matrix is dependent on the number of things we want to predict
+Example 
+	2 values (Yes/no, True/False) 
+		 Yes   no
+	Yes [ TP   FP
+	no    FN   TN ]
+
+	 3 values (BJP//Congress/NOTA, Run/Walk/Stand) 
+	BJP  Congress NOTA
+	[ ✓     ✘		✘  
+	  ✘     ✓ 		✘
+	  ✘	    ✘		✓ ]
+
+	 4 values  
+	 [ ✓     ✘		✘		✘  
+	  ✘     ✓ 		✘		✘
+	  ✘	    ✘		✓		✘ 
+	  ✘	    ✘		✘		✓ ]
+	
+	40 things to choos from we have 40 rows and 40 columns 
