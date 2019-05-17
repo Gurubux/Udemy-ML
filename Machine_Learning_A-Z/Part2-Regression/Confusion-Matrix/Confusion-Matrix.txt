@@ -1,8 +1,13 @@
 Confusion-Matrix - Tells what your ML algo did right and what it did wrong
 
 The size of the Confusion Matrix is dependent on the number of things we want to predict
-Example 
+
+Rows - Predicted Values
+Columns - Actual Values
+
+EXAMPLE 
 	2 values (Yes/no, True/False) 
+
 		 Yes   no
 	Yes [ TP   FP
 	no    FN   TN ]
@@ -20,3 +25,10 @@ Example
 	  ✘	    ✘		✘		✓ ]
 	
 	40 things to choos from we have 40 rows and 40 columns 
+
+----------------------------------------------------------------------
+conf_matrix = metrics.confusion_matrix(expected, predicted)
+print conf_matrix
+>>>  [[1403   87]
+     [  56 3159]]
+----------------------------------------------------------------------

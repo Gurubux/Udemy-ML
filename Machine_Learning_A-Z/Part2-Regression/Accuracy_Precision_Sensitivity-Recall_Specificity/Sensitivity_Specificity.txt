@@ -1,0 +1,23 @@
+SENSITIVITY_SPECIFICITY
+
+Sensitivity(Recall) - % of positive data correctly predicted - True positive rate
+Specificity - % of negative data correctly predicted - True negative rate
+
+
+
+When Confusion-Matrix has 2 n x m
+				  ACTUAL
+				 Yes   no
+PREDICTED	Yes [ TP   FP
+			No    FN   TN ]
+				   
+SENSITIVITY(recall) = tp / t = tp / (tp + fn)
+SPECIFICITY 		= tn / n = tn / (tn + fp)
+PRECISION 			= tp / p = tp / (tp + fp)
+
+Sensitivity/recall – how good a test is at detecting the positives. A test can cheat and maximize this by always returning “positive”.
+Specificity – how good a test is at avoiding false alarms. A test can cheat and maximize this by always returning “negative”.
+Precision – how many of the positively classified were relevant. A test can cheat and maximize this by only returning positive on one result it’s most confident in.
+The cheating is resolved by looking at both relevant metrics instead of just one. E.g. the cheating 100% sensitivity that always says “positive” has 0% specificity.
+
+When Confusion-Matrix has 3 or more n x m
