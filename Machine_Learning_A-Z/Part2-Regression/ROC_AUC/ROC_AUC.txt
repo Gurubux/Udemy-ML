@@ -6,7 +6,9 @@ ROC_AUC.ipynb  - https://github.com/Gurubux/Udemy-ML/blob/master/Machine_Learnin
 
 1. Receiver Operating Characteristic Curves Demystified (in Python) 
 	https://towardsdatascience.com/receiver-operating-characteristic-curves-demystified-in-python-bd531a4364d0
-
+	Good or Bad ROC
+	https://raw.githubusercontent.com/Gurubux/Udemy-ML/master/Machine_Learning_A-Z/Part2-Regression/ROC_AUC/ROC_AUC.png
+	
 2. Understanding ROC Curves with Python 
 	https://stackabuse.com/understanding-roc-curves-with-python/
 
@@ -17,3 +19,5 @@ ROC_AUC.ipynb  - https://github.com/Gurubux/Udemy-ML/blob/master/Machine_Learnin
 
 4. Receiver Operating Characteristic (ROC) 
 	https://scikit-learn.org/stable/auto_examples/model_selection/plot_roc.html
+
+
