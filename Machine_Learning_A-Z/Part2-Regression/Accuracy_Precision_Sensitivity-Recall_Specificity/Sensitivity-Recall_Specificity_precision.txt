@@ -57,5 +57,36 @@ Specificity :  0.0
 Precision :  0.75
 
 
+y_true = [0, 0, 0, 1, 1, 1, 1, 1]
+y_pred = [0, 1, 0, 1, 0, 1, 0, 1]
+tn, fp, fn, tp = confusion_matrix(y_true, y_pred).ravel()
+print(confusion_matrix(y_true, y_pred))
+print('tn, fp, fn, tp',tn, fp, fn, tp)
+
+
+cm1 = confusion_matrix(y_true, y_pred)
+
+total1=sum(sum(cm1))
+
+accuracy=(cm1[0,0]+cm1[1,1])/total1
+print ('Accuracy : ', accuracy)
+
+sensitivity = cm1[1,1]/(cm1[1,1]+cm1[1,0])
+print('Sensitivity : ', sensitivity )
+
+specificity= cm1[0,0]/(cm1[0,0]+cm1[0,1])
+print('Specificity : ', specificity)
+
+precision = cm1[1,1]/(cm1[0,1]+cm1[1,1])
+print('Precision : ', precision)
+
+plot_confusion_matrix(y_true, y_pred, classes=np.array([0,1]), title='Confusion matrix, without normalization')
+
+
+
+
+
+
+
 When Confusion-Matrix has 3 or more n x m
 https://youtu.be/sunUKFXMHGk?t=332

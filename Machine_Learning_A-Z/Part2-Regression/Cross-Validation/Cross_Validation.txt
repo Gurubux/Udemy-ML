@@ -13,7 +13,7 @@ Example : Consider 4 blocks of data : Total Data : |--1-25%--|--2-25%--|--3-25%-
 rf_class = RandomForestClassifier(n_estimators=10)
 log_class = LogisticRegression()
 svm_class = svm.SVC()
-
+from sklearn.model_selection import cross_val_score
 print(cross_val_score(rf_class, data_input, data_output, scoring='accuracy', cv = 10))
 # [ 1.          0.93333333  1.          0.93333333  0.93333333  0.93333333 	 0.86666667  1.          1.          1.        ]
 
