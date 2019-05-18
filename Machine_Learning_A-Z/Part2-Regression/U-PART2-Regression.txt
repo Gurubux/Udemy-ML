@@ -172,13 +172,69 @@ SECTION 10 - Evaluating Regression Models Performance
 - Adjusted R-Squared Intuition
 - Evaluating Regression Models Performance - Homework's Final Part
 - Interpreting Linear Regression Coefficients
+
+- R² Intuition
+    R² Score  = 1 - RSS/TSS  =  1 - RSE
+- Adjusted R² Intuition
+    Adjusted R² has a penalization factor. It penalizes you for adding independent variables that don't help your model.
+                                ( n - 1 )
+    Adj R²    = 1 - (1 - R²) -----------------
+                              ( n - p - 1 )
+
+
+                                ( n - 1 )
+              = 1 - (RSS/TSS) -----------------
+                              ( n - p - 1 )
+
+                Where,
+                    p = number of Regressors
+                    n = sample size
+
+    So as seen from the formula as the number of regressor(independent variable) increases the Adj R² decreases thus penalizing.
+    It's a very good metric it helps you understand whether YOU'RE ADDING GOOD VARIABLES TO MODEL OR NOT.
+
+
+    Example :  https://raw.githubusercontent.com/Gurubux/Udemy-ML/master/Machine_Learning_A-Z/Part2-Regression/Section5-Multiple_Linear_Regression/Homework_Solutions/multiple_linear_regression_backwordElimination.py
+        In backward elimination step Rsquared for [0, 3, 5] was 0.947 
+                                          and for [0, 3] it was 0.944 that means by removing a variable it decreased the Rsquared value
+                                          thus [0, 3, 5] are better predictors of dependent variable y
+
+
+
+1. WHAT ARE THE PROS AND CONS OF EACH MODEL ?
+    https://github.com/Gurubux/Udemy-ML/blob/master/Machine_Learning_A-Z/Part2-Regression/Section10-EvaluatingRegressionModelsPerformance/P14-Regression-Pros-Cons.pdf
+2. HOW DO I KNOW WHICH MODEL TO CHOOSE FOR MY PROBLEM ?    
+    a. First, you need to figure out whether your problem is linear or non linear. You will learn how to do that in Part 10 - Model Selection.
+    b. If your problem is linear, you should go for SIMPLE LINEAR REGRESSION if you only have one feature, and MULTIPLE LINEAR REGRESSION if you have several features.
+    c. If your problem is non linear, you should go for POLYNOMIAL REGRESSION, SVR, DECISION TREE OR RANDOM FOREST. 
+    d. Then which one should you choose among these four ? That you will learn in Part 10 - Model Selection. 
+3. HOW CAN I IMPROVE EACH OF THESE MODELS ?
+    Parameter Tuning - Part 10 - Model Selection.
+    You probably already noticed that each model is composed of two types of parameters:
+        a. the parameters that are learnt, for example the coefficients in Linear Regression,
+        b. the hyperparameters.
+            The hyperparameters are the parameters that are not learnt and that are fixed values inside the model equations. 
+            For example, the regularization parameter lambda or the penalty parameter C are hyperparameters. So far we used the default value 
+            of these hyperparameters, and we haven't searched for their optimal value so that your model reaches even higher performance. 
+            Finding their optimal value is exactly what Parameter Tuning is about. So for those of you already interested in improving your 
+            model performance and doing some parameter tuning, feel free to jump directly to Part 10 - Model Selection.
+
+
+
+
+
 --------------------------------------------------------------------------------------------------
 SECTION 11 - Regularization Methods
 --------------------------------------------------------------------------------------------------
 Lasso
 Ridge
 ElasticNet
+https://sds-platform-private.s3-us-east-2.amazonaws.com/uploads/P14-Regularization.pdf
+
 --------------------------------------------------------------------------------------------------
 SECTION 12 - Part Recap
 --------------------------------------------------------------------------------------------------
+
+
+
 https://raw.githubusercontent.com/Gurubux/Udemy-ML/master/Machine_Learning_A-Z/Part2-Regression/NonLinear-Regression-Poly%2CSVR%2CDecisionTree%2CRandomForest.jpg

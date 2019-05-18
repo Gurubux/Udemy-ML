@@ -49,30 +49,38 @@ y=y_train
 
 X_opt = X[:, [0, 1, 2, 3, 4, 5]]
 regressor_OLS = sm.OLS(endog = y, exog = X_opt).fit()
-regressor_OLS.summary()
+print(regressor_OLS.summary())
 print("[0, 1, 2, 3, 4, 5]",["%.3f"%x for x in regressor_OLS.pvalues])
-print("Max PValue ",np.max(regressor_OLS.pvalues))
+print("rsquared_adj ",regressor_OLS.rsquared_adj)
+print("Max PValue ",np.max(regressor_OLS.pvalues),'\n')
 
 X_opt = X[:, [0, 1, 3, 4, 5]]
 regressor_OLS = sm.OLS(endog = y, exog = X_opt).fit()
-regressor_OLS.summary()
+print(regressor_OLS.summary())
 print("[0, 1, 3, 4, 5]",["%.3f"%x for x in regressor_OLS.pvalues])
-print("Max PValue ",np.max(regressor_OLS.pvalues))
+print("rsquared_adj ",regressor_OLS.rsquared_adj)
+print("Max PValue ",np.max(regressor_OLS.pvalues),'\n')
+
 X_opt = X[:, [0, 3, 4, 5]]
 regressor_OLS = sm.OLS(endog = y, exog = X_opt).fit()
-regressor_OLS.summary()
+print(regressor_OLS.summary())
 print("[0, 3, 4, 5]",["%.3f"%x for x in regressor_OLS.pvalues])
-print("Max PValue ",np.max(regressor_OLS.pvalues))
+print("rsquared_adj ",regressor_OLS.rsquared_adj)
+print("Max PValue ",np.max(regressor_OLS.pvalues),'\n')
+
 X_opt = X[:, [0, 3, 5]]
 regressor_OLS = sm.OLS(endog = y, exog = X_opt).fit()
-regressor_OLS.summary()
+print(regressor_OLS.summary())
 print("[0, 3, 5]",["%.3f"%x for x in regressor_OLS.pvalues])
-print("Max PValue ",np.max(regressor_OLS.pvalues))
+print("rsquared_adj ",regressor_OLS.rsquared_adj)
+print("Max PValue ",np.max(regressor_OLS.pvalues),'\n')
+
 X_opt = X[:, [0, 3]]
 regressor_OLS = sm.OLS(endog = y, exog = X_opt).fit()
-regressor_OLS.summary()
+print(regressor_OLS.summary())
 print("[0, 3]",["%.3f"%x for x in regressor_OLS.pvalues])
-print("Max PValue ",np.max(regressor_OLS.pvalues))
+print("rsquared_adj ",regressor_OLS.rsquared_adj)
+print("Max PValue ",np.max(regressor_OLS.pvalues),'\n')
 
 X_test = np.append(arr = np.ones((10, 1)).astype(int), values = X_test, axis = 1)
 y_pred_ols = regressor_OLS.predict(X_test[:, [0, 3]])
