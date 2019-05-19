@@ -43,7 +43,7 @@ y_pred = regressor.predict(X_test)
 # Building the optimal model using Backward Elimination
 import statsmodels.formula.api as sm
 X1=X
-X = np.append(arr = np.ones((40, 1)).astype(int), values = X_train, axis = 1)
+X = np.append(arr = np.ones((40, 1)).astype(int), values = X_train, axis = 1)#sm.add_constant(X)
 y1=y
 y=y_train
 
