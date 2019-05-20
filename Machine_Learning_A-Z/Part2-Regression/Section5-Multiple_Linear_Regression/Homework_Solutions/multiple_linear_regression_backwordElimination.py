@@ -54,6 +54,19 @@ print("[0, 1, 2, 3, 4, 5]",["%.3f"%x for x in regressor_OLS.pvalues])
 print("rsquared_adj ",regressor_OLS.rsquared_adj)
 print("Max PValue ",np.max(regressor_OLS.pvalues),'\n')
 
+#Plotting Scatter Matrix using pandas
+pd.plotting.scatter_matrix(dataset); 
+plt.show()
+#Plotting Scatter Matrix using seaborn
+import seaborn as sns
+sns.set()
+"""df = sns.load_dataset("iris")
+sns.pairplot(df, hue="species")"""
+
+
+sns.pairplot(dataset)
+
+
 X_opt = X[:, [0, 1, 3, 4, 5]]
 regressor_OLS = sm.OLS(endog = y, exog = X_opt).fit()
 print(regressor_OLS.summary())
