@@ -27,7 +27,7 @@ print(cross_val_score(svm_class, data_input, data_output, scoring='accuracy', cv
 accuracy = cross_val_score(svm_class, data_input, data_output, scoring='accuracy', cv = 10).mean() * 100
 print("Accuracy of SVM is: " , accuracy)
  
-print("\n\nLog:")
+print("\n\nLogisticRegression:")
 print(cross_val_score(log_class, data_input, data_output, scoring='accuracy', cv = 10))
 accuracy = cross_val_score(log_class, data_input, data_output, scoring='accuracy', cv = 10).mean() * 100
 print("Accuracy of SVM is: " , accuracy)
