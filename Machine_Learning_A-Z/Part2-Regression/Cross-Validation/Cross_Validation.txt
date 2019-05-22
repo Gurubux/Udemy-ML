@@ -52,7 +52,7 @@ Log:
 Accuracy of SVM is:  95.3333333333
 """
 
-Few ypes of evaluation approaches that can be used to achieve this goal.These approaches are: 
+Few types of evaluation approaches that can be used to achieve this goal.These approaches are: 
 	1. train and test on the same dataset, and 
 	2. train/test split.
 	3. K Fold 					
@@ -64,3 +64,7 @@ Few ypes of evaluation approaches that can be used to achieve this goal.These ap
 		cross_val_score(rf_class, data_input, data_output, scoring='accuracy', cv = 10)
 		accuracy = cross_val_score(rf_class, data_input, data_output, scoring='accuracy', cv = 10).mean() * 100
 		print("Accuracy of SVM is: " , accuracy)
+
+
+
+https://github.com/Gurubux/Udemy-ML/blob/master/Machine_Learning_A-Z/Part2-Regression/Cross-Validation/07_cross_validation.ipynb
