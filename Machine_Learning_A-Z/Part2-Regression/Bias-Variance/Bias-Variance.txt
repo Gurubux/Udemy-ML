@@ -23,3 +23,10 @@ Types of BAGGING
 	Boostrap AGGregation
 	Random Forest,More trees
 	Decreases Variance
+
+
+Learning Curves 
+	To check if Training sample count improves Bias-Variance trade-off
+
+	Learning curves – high bias and low variance
+	Learning curves – low bias and high variance
