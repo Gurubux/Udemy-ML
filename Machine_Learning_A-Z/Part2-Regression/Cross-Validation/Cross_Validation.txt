@@ -67,7 +67,8 @@ Few types of evaluation approaches that can be used to achieve this goal.These a
 		print("Accuracy of SVM is: " , accuracy)
 
 ------------------------------------------------------------------------------------------------------------------------------------
-
+------------------------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------------------------
 #https://github.com/Gurubux/Udemy-ML/blob/master/Machine_Learning_A-Z/Part2-Regression/Cross-Validation/07_cross_validation.ipynb
 train/test split - High Variance Result
 Question: What if we created a bunch of train/test splits, calculated the testing accuracy for each, and averaged the results together?
@@ -91,7 +92,7 @@ for iteration, data in enumerate(kf, start=1):
 		    4     [ 0  1  2  3  4  5  6  7  8  9 10 11 12 13 14 20 21 22 23 24]     [15 16 17 18 19]     
 		    5     [ 0  1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16 17 18 19]     [20 21 22 23 24]     
 
-
+------------------------------------------------------------------------------------------------------------------------------------
 CROSS-VALIDATION EXAMPLE: PARAMETER TUNING
 	# search for an optimal value of K for KNN
 	k_range = list(range(1, 31))
@@ -106,7 +107,7 @@ CROSS-VALIDATION EXAMPLE: PARAMETER TUNING
 	plt.xlabel('Value of K for KNN')
 	plt.ylabel('Cross-Validated Accuracy')
 
-
+------------------------------------------------------------------------------------------------------------------------------------
 CROSS-VALIDATION EXAMPLE: MODEL SELECTION
 	# 10-fold cross-validation with the best KNN model
 	knn = KNeighborsClassifier(n_neighbors=20)
@@ -117,7 +118,7 @@ CROSS-VALIDATION EXAMPLE: MODEL SELECTION
 	logreg = LogisticRegression()
 	print(cross_val_score(logreg, X, y, cv=10, scoring='accuracy').mean())
 
-
+------------------------------------------------------------------------------------------------------------------------------------
 CROSS-VALIDATION EXAMPLE: FEATURE SELECTION
 	X = data[['TV', 'Radio', 'Newspaper']]
 	lm = LinearRegression()
@@ -143,4 +144,8 @@ Feature engineering and selection within cross-validation iterations
 
 Normally, feature engineering and selection occurs before cross-validation
 Instead, perform all feature engineering and selection within each cross-validation iteration
-More reliable estimate of out-of-sample performance since it better mimics the application of the model to out-of-sample data
+More reliable estimate of out-of-sample performance since it better mimics the application of the model to out-of-sample data.
+
+------------------------------------------------------------------------------------------------------------------------------------
+#https://github.com/Gurubux/StatQuest/blob/master/GridSearchCV_RandomizedSearchCV/08_grid_searchnew.ipynb
+More efficient parameter tuning using GridSearchCV GridSearchCV()
