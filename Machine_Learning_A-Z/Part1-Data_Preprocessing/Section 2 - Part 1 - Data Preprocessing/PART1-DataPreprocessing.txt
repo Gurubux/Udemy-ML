@@ -7,7 +7,7 @@ Identify independent variables to predict dependant variables
 Country,Age,Salary - IV
 Purchased - DV
 --------------------------------------------------------------------------------------------------
-12. Importing the Libraries
+12. Importing the libraries
 	import numpy as np
 	import matplotlib.pyplot as plt
 	import pandas as pd
