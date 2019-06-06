@@ -1,3 +1,7 @@
+Cross-Validation
+------------------------------------------------------------------------------------------------------
+Classification and Regression
+------------------------------------------------------------------------------------------------------
 Cross-Validation allows us to compare different machine learning methods and get a sense of how well they will work in practice.
 
 Training Set and testing set are divided randomly- To choose the best among each for testing is a overhead, thus Cross-validation uses themm all, one at a time, and summarizes the results at the end.

@@ -1,3 +1,7 @@
+Confusion Matrix
+------------------------------------------------------------------------------------------
+Classification
+------------------------------------------------------------------------------------------
 Confusion-Matrix - Tells what your ML algo did right and what it did wrong
 
 The size of the Confusion Matrix is dependent on the number of things we want to predict
@@ -10,15 +14,15 @@ EXAMPLE
 
 
 				  PREDICTED
-				   N    P
+				          N    P
 ACTUAL		N 	 [ TN   FP
-			P      FN   TP ]
+			    P      FN   TP ]
 
 	 3 values (BJP//Congress/NOTA, Run/Walk/Stand) 
-	BJP  Congress NOTA
-	[ ✓     ✘		✘  
-	  ✘     ✓ 		✘
-	  ✘	    ✘		✓ ]
+	 BJP  Congress NOTA
+	[ ✓     ✘		    ✘  
+	  ✘     ✓ 		  ✘
+	  ✘	    ✘		    ✓ ]
 
 	 4 values  
 	 [ ✓     ✘		✘		✘  
@@ -26,7 +30,7 @@ ACTUAL		N 	 [ TN   FP
 	  ✘	    ✘		✓		✘ 
 	  ✘	    ✘		✘		✓ ]
 	
-	40 things to choos from we have 40 rows and 40 columns 
+	40 things to choose from we have 40 rows and 40 columns 
 
 ----------------------------------------------------------------------
 y_true = [0, 0, 0, 1, 1, 1, 1, 1]
@@ -39,6 +43,9 @@ print('tn, fp, fn, tp',tn, fp, fn, tp)
 	 [2 3]]
 	tn, fp, fn, tp 2 1 2 3
 ----------------------------------------------------------------------
+"https://github.com/Gurubux/Udemy-ML/blob/master/Machine_Learning_A-Z/Part2-Regression/Confusion-Matrix/Confusion_Matrix_Practice.ipynb"
+"https://github.com/Gurubux/Udemy-ML/blob/master/Machine_Learning_A-Z/Part2-Regression/Confusion-Matrix/plot_confusion_matrix.ipynb"
+from sklearn.metrics import confusion_matrix
 def plot_confusion_matrix(y_true, y_pred, classes,
                           normalize=False,
                           title=None,
@@ -91,3 +98,44 @@ def plot_confusion_matrix(y_true, y_pred, classes,
                     color="white" if cm[i, j] > thresh else "black")
     fig.tight_layout()
     return ax
+#https://github.com/Gurubux/Udemy-ML/tree/master/Machine_Learning_A-Z/Part2-Regression/Confusion-Matrix
+-----------------------------------------------------------------------------
+Confusion Metrix is used to calculate SENSITIVITY, SPECIFICITY, PRECISION, ACCURACY
+SENSITIVITY-RECALL  = tp / t = tp / (tp + fn)
+SPECIFICITY         = tn / n = tn / (tn + fp)
+PRECISION           = tp / p = tp / (tp + fp)
+ACCURACY            = tp + tn / (Total)
+#https://github.com/Gurubux/Udemy-ML/blob/master/Machine_Learning_A-Z/Part2-Regression/Accuracy_Precision_Sensitivity-Recall_Specificity/Sensitivity-Recall_Specificity_precision.txt
+
+
+----------------------------------------------------------------------------------
+"https://github.com/Gurubux/Data-Lit/blob/master/2-StatisticsAndProbability/2.1-CreditScoring/Loan_Default_Prediction.ipynb"
+def plot_confusion_matrix2(model, normalize=False): # This function prints and plots the confusion matrix.
+    cm = confusion_matrix(y_test, model, labels=[0, 1])
+    classes=["Will Pay", "Will Default"]
+    cmap = plt.cm.Blues
+    title = "Confusion Matrix"
+    if normalize:
+        cm = cm.astype('float') / cm.sum(axis=1)[:, np.newaxis]
+        cm = np.around(cm, decimals=3)
+    plt.imshow(cm, interpolation='nearest', cmap=cmap)
+    plt.title(title)
+    plt.colorbar()
+    tick_marks = np.arange(len(classes))
+    plt.xticks(tick_marks, classes, rotation=45)
+    plt.yticks(tick_marks, classes)
+    thresh = cm.max() / 2.
+    for i, j in itertools.product(range(cm.shape[0]), range(cm.shape[1])):
+        plt.text(j, i, cm[i, j],
+                 horizontalalignment="center",
+                 color="white" if cm[i, j] > thresh else "black")
+    plt.tight_layout()
+    plt.ylabel('True label')
+    plt.xlabel('Predicted label')
+
+plot_confusion_matrix2(rfPredict, normalize=True)
+
+
+
+--------------------------------------------------------------------------------------------
+#https://www.python-course.eu/confusion_matrix.php

@@ -1,5 +1,9 @@
+"https://github.com/Gurubux/Udemy-ML/blob/master/Machine_Learning_A-Z/Part2-Regression/ROC_AUC/ROC_AUC.ipynb"
+------------------------------------------------------------------------------------------
 AREA UNDER THE RECEIVER OPERATING CHARACTERISTIC CURVE ( AUC ROC  )
-
+------------------------------------------------------------------------------------------
+Classification
+---------------------------------------------------------
 https://www.youtube.com/watch?v=xugjARegisk&feature=youtu.be
 
 
@@ -66,3 +70,8 @@ def plot_roc_curve(fpr, tpr):
     plt.title('Receiver Operating Characteristic (ROC) Curve')
     plt.legend()
     plt.show()
+
+
+--------------------------------------------------------------------------
+#https://github.com/Gurubux/Data-Lit/blob/master/2-StatisticsAndProbability/2.1-CreditScoring/Loan_Default_Prediction.ipynb
+plotAUC()
