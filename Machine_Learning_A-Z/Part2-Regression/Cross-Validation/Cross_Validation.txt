@@ -61,7 +61,10 @@ Few types of evaluation approaches that can be used to achieve this goal.These a
 		cross_val_score().mean()
 	4. ShuffleSplit()
 		cross_val_score(rf_class, data_input, data_output, scoring='accuracy', cv = 10)
+		OR
+
 		cv = ShuffleSplit(n_splits=100, test_size=0.2, random_state=0)
+		
 		cross_val_score(rf_class, data_input, data_output, scoring='accuracy', cv = 10)
 		accuracy = cross_val_score(rf_class, data_input, data_output, scoring='accuracy', cv = 10).mean() * 100
 		print("Accuracy of SVM is: " , accuracy)
