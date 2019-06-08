@@ -82,7 +82,7 @@ GOAL    - To predict whether the new Employee is bluffing or not about his salar
 
 Code    - PRACTICE-SVR.py
 DATASET - numpy generated data
-GOAL    - To observe 'RBF', 'Linear', 'Polynomial' kernels in SVR regrerssion
+GOAL    - To observe `RBF`, `Linear`, `Polynomial` kernels in SVR regrerssion
 
 --------------------------------------------------------------------------------------------------
 SECTION 8 - Decision Tree Classification
@@ -124,7 +124,7 @@ https://www.youtube.com/watch?v=nWuUahhK3Oc
            STDReduction(tutorials)   =  STD(exam) - WEIGHTED STD(tutorials)
            STDReduction(labs)        =  STD(exam) - WEIGHTED STD(labs)
 
-        The GREATEST of each independent variable's STDReduction will be more prominent in predicting the Target variable and be chosen as the ROOT
+        The GREATEST of each independent variable`s STDReduction will be more prominent in predicting the Target variable and be chosen as the ROOT
 
 2. PREDICTION
              | ROOT |                                         |     labs    |
@@ -139,7 +139,7 @@ AVG(TgtV | ROOT = x) AVG(TgtV | ROOT = y)                  /                   \
 
 Also DT Regression does the splitting(criterion) based on "MSE" or "MAE" or "FRIEDMAN_MSE"
 
-Also DT Classifier does the splitting(criterion) based on "Entropy" for Information Gain OR 'gini' for gini impurities
+Also DT Classifier does the splitting(criterion) based on "Entropy" for Information Gain OR `gini` for gini impurities
 
 
 
@@ -170,13 +170,13 @@ SECTION 10 - Evaluating Regression Models Performance
 --------------------------------------------------------------------------------------------------
 - R-Squared Intuition
 - Adjusted R-Squared Intuition
-- Evaluating Regression Models Performance - Homework's Final Part
+- Evaluating Regression Models Performance - Homework`s Final Part
 - Interpreting Linear Regression Coefficients
 
 - R² Intuition
     R² Score  = 1 - RSS/TSS  =  1 - RSE
 - Adjusted R² Intuition
-    Adjusted R² has a penalization factor. It penalizes you for adding independent variables that don't help your model.
+    Adjusted R² has a penalization factor. It penalizes you for adding independent variables that don`t help your model.
                                 ( n - 1 )
     Adj R²    = 1 - (1 - R²) -----------------
                               ( n - p - 1 )
@@ -191,7 +191,7 @@ SECTION 10 - Evaluating Regression Models Performance
                     n = sample size
 
     So as seen from the formula as the number of regressor(independent variable) increases the Adj R² decreases thus penalizing.
-    It's a very good metric it helps you understand whether YOU'RE ADDING GOOD VARIABLES TO MODEL OR NOT.
+    It`s a very good metric it helps you understand whether YOU`RE ADDING GOOD VARIABLES TO MODEL OR NOT.
 
 
     Example :  https://raw.githubusercontent.com/Gurubux/Udemy-ML/master/Machine_Learning_A-Z/Part2-Regression/Section5-Multiple_Linear_Regression/Homework_Solutions/multiple_linear_regression_backwordElimination.py
@@ -215,7 +215,7 @@ SECTION 10 - Evaluating Regression Models Performance
         b. the hyperparameters.
             The hyperparameters are the parameters that are not learnt and that are fixed values inside the model equations. 
             For example, the regularization parameter lambda or the penalty parameter C are hyperparameters. So far we used the default value 
-            of these hyperparameters, and we haven't searched for their optimal value so that your model reaches even higher performance. 
+            of these hyperparameters, and we haven`t searched for their optimal value so that your model reaches even higher performance. 
             Finding their optimal value is exactly what Parameter Tuning is about. So for those of you already interested in improving your 
             model performance and doing some parameter tuning, feel free to jump directly to Part 10 - Model Selection.
 
