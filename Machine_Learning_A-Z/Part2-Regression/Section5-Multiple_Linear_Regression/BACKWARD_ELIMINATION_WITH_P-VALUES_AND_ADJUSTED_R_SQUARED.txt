@@ -1,7 +1,7 @@
 BACKWARD ELIMINATION WITH P-VALUES ONLY:
 
 import statsmodels.formula.api as sm
-def backwardElimination(x, sl):
+def backwardElimination_1(x, sl):
     numVars = len(x[0])
     for i in range(0, numVars):
         regressor_OLS = sm.OLS(y, x).fit()
@@ -15,7 +15,7 @@ def backwardElimination(x, sl):
  
 SL = 0.05
 X_opt = X[:, [0, 1, 2, 3, 4, 5]]
-X_Modeled = backwardElimination(X_opt, SL)
+X_Modeled = backwardElimination_1(X_opt, SL)
 
 
 
@@ -23,7 +23,7 @@ X_Modeled = backwardElimination(X_opt, SL)
 BACKWARD ELIMINATION WITH P-VALUES AND ADJUSTED R SQUARED:
 
 import statsmodels.formula.api as sm
-def backwardElimination(x, SL):
+def backwardElimination_2(x, SL):
     numVars = len(x[0])
     temp = np.zeros((50,6)).astype(int)
     for i in range(0, numVars):
@@ -49,4 +49,4 @@ def backwardElimination(x, SL):
  
 SL = 0.05
 X_opt = X[:, [0, 1, 2, 3, 4, 5]]
-X_Modeled = backwardElimination(X_opt, SL)
+X_Modeled = backwardElimination_2(X_opt, SL)
