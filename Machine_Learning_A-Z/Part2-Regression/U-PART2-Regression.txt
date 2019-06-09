@@ -49,7 +49,9 @@ BACKWARD ELIMINATION WITH P-VALUES ONLY:
 BACKWARD ELIMINATION WITH P-VALUES AND ADJUSTED R SQUARED:
 https://raw.githubusercontent.com/Gurubux/Udemy-ML/master/Machine_Learning_A-Z/Part2-Regression/Section5-Multiple_Linear_Regression/BACKWARD_ELIMINATION_WITH_P-VALUES_AND_ADJUSTED_R_SQUARED.txt
 
+"ChiSquareAndP-value"
 
+"ProbabiltyInNormalDensityCurves"
 --------------------------------------------------------------------------------------------------
 SECTION 6 - Polynomial Regression ⁰¹²³ⁿ ₀₁₂₃ₙ
 --------------------------------------------------------------------------------------------------
