@@ -84,6 +84,9 @@ Code    - PRACTICE-SVR.py
 DATASET - numpy generated data
 GOAL    - To observe `RBF`, `Linear`, `Polynomial` kernels in SVR regrerssion
 
+from sklearn.svm import SVR
+regressor = SVR(kernel = 'rbf')
+
 --------------------------------------------------------------------------------------------------
 SECTION 8 - Decision Tree Classification
 --------------------------------------------------------------------------------------------------
@@ -142,6 +145,8 @@ Also DT Regression does the splitting(criterion) based on "MSE" or "MAE" or "FRI
 Also DT Classifier does the splitting(criterion) based on "Entropy" for Information Gain OR `gini` for gini impurities
 
 
+from sklearn.tree import DecisionTreeRegressor #  DecisionTreeRegressor(self, criterion="mse", splitter="best", max_depth=None, min_samples_split=2, min_samples_leaf=1, min_weight_fraction_leaf=0., max_features=None, random_state=None, max_leaf_nodes=None, min_impurity_decrease=0., min_impurity_split=None, presort=False)
+regressor = DecisionTreeRegressor(random_state = 0)
 
 --------------------------------------------------------------------------------------------------
 SECTION 9 - Random Forest Classification
@@ -159,12 +164,13 @@ Random Forest
 
 Bias-Variance     - https://raw.githubusercontent.com/Gurubux/Udemy-ML/master/Machine_Learning_A-Z/Part2-Regression/Section9-RandomForestRegression/Bias-Variance.txt
 
-Ensemble Learning - When you take multiple algorithms or the same algorithm multiple times and you put them together to make something more powerful then 
-                    the orginal
+Ensemble Learning - When you take multiple algorithms or the same algorithm multiple times and you put them together to make something more powerful then the orginal
 
 Steps to perform  - https://raw.githubusercontent.com/Gurubux/Udemy-ML/master/Machine_Learning_A-Z/Part2-Regression/Section9-RandomForestRegression/Steps_RF.PNG
-Random Forest  
 
+Random Forest  
+from sklearn.ensemble import RandomForestRegressor
+regressor = RandomForestRegressor(n_estimators = 10, random_state = 0)
 --------------------------------------------------------------------------------------------------
 SECTION 10 - Evaluating Regression Models Performance
 --------------------------------------------------------------------------------------------------
