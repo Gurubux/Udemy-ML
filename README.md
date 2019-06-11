@@ -14,3 +14,6 @@ Part 10 - Model Selection & Boosting: k-fold Cross Validation, Parameter Tuning,
 Created by Kirill Eremenko, Hadelin de Ponteves, SuperDataScience Team, SuperDataScience Support<br><br>
 
 Resources - https://www.superdatascience.com/pages/machine-learning
+</br>
+PS : 
+To Open .ipynb files (If unable to view on github) copy link of file.ipynb and paste it on the web site https://nbviewer.jupyter.org/
