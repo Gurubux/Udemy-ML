@@ -3,3 +3,6 @@
 *.odt#
 *.docx#
 Machine_Learning_A-Z/Part2-Regression/Section7-SupportVectorRegression-SVR/.~lock.SupportVectorRegressionModel_SVR.docx#
+*.jpg
+*.zip
+*.DS_Store
