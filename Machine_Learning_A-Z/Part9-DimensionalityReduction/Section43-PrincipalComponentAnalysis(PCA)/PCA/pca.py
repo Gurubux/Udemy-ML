@@ -7,6 +7,8 @@ import pandas as pd
 
 # Importing the dataset
 dataset = pd.read_csv('Wine.csv')
+# Alcohol,Malic_Acid,Ash,Ash_Alcanity,Magnesium,Total_Phenols,Flavanoids,Nonflavanoid_Phenols,Proanthocyanins,
+# Color_Intensity,Hue,OD280,Proline,Customer_Segment
 X = dataset.iloc[:, 0:13].values
 y = dataset.iloc[:, 13].values
 
@@ -26,6 +28,7 @@ pca = PCA(n_components = 2)
 X_train = pca.fit_transform(X_train)
 X_test = pca.transform(X_test)
 explained_variance = pca.explained_variance_ratio_
+print(explained_variance)
 
 # Fitting Logistic Regression to the Training set
 from sklearn.linear_model import LogisticRegression
@@ -38,6 +41,7 @@ y_pred = classifier.predict(X_test)
 # Making the Confusion Matrix
 from sklearn.metrics import confusion_matrix
 cm = confusion_matrix(y_test, y_pred)
+print(cm)
 
 # Visualising the Training set results
 from matplotlib.colors import ListedColormap
@@ -74,3 +78,18 @@ plt.xlabel('PC1')
 plt.ylabel('PC2')
 plt.legend()
 plt.show()
+
+
+from sklearn.metrics import classification_report
+print("Classification report")
+print(classification_report(y_test,y_pred))
+# Classification report
+#               precision    recall  f1-score   support
+#
+#            1       0.93      1.00      0.97        14
+#            2       1.00      0.94      0.97        16
+#            3       1.00      1.00      1.00         6
+#
+#     accuracy                           0.97        36
+#    macro avg       0.98      0.98      0.98        36
+# weighted avg       0.97      0.97      0.97        36

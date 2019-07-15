@@ -2,7 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="089ac5c9-235e-46bd-8f56-545b488a2a8f" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../Part4-Clustering/U-PART4-Clustering.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../Part4-Clustering/U-PART4-Clustering.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Part10-ModelSelection&amp;Boosting/.idea/Part10-ModelSelection&amp;Boosting.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Part9-DimensionalityReduction/.idea/Part9-DimensionalityReduction.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Part10-ModelSelection&amp;Boosting/Section48-ModelSelection/Model_Selection/grid_search.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Part10-ModelSelection&amp;Boosting/Section48-ModelSelection/Model_Selection/grid_search.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Part10-ModelSelection&amp;Boosting/Section48-ModelSelection/Model_Selection/k_fold_cross_validation.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Part10-ModelSelection&amp;Boosting/Section48-ModelSelection/Model_Selection/k_fold_cross_validation.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Part10-ModelSelection&amp;Boosting/Section49-XGBoost/XGBoost/xgboost.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Part10-ModelSelection&amp;Boosting/Section49-XGBoost/XGBoost/xgboost.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Part3-Classification/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Part3-Classification/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Part4-Clustering/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Part4-Clustering/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Part5-AssociationRuleLearning/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Part5-AssociationRuleLearning/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Part6-ReinforcementLearning/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Part6-ReinforcementLearning/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Part6-ReinforcementLearning/Section32-UpperConfidenceBound(UCB)/UCB/random_selection.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Part6-ReinforcementLearning/Section32-UpperConfidenceBound(UCB)/UCB/random_selection.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Part8-DeepLearning/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Part8-DeepLearning/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Part8-DeepLearning/Section39-ArtificialNeuralNetworks(ANN)/Artificial_Neural_Networks/ann.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Part8-DeepLearning/Section39-ArtificialNeuralNetworks(ANN)/Artificial_Neural_Networks/ann.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Part9-DimensionalityReduction/Section43-PrincipalComponentAnalysis(PCA)/PCA/pca.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Part9-DimensionalityReduction/Section43-PrincipalComponentAnalysis(PCA)/PCA/pca.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Part9-DimensionalityReduction/Section44-LinearDiscriminantAnalysis(LDA)/LDA/lda.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Part9-DimensionalityReduction/Section44-LinearDiscriminantAnalysis(LDA)/LDA/lda.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Part9-DimensionalityReduction/Section45-KernelPCA/Kernel_PCA/kernel_pca.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Part9-DimensionalityReduction/Section45-KernelPCA/Kernel_PCA/kernel_pca.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -11,12 +26,15 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Section 36-NaturalLanguageProcessing/Natural_Language_Processing/natural_language_processing.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="544">
-              <caret line="34" column="52" selection-start-line="34" selection-start-column="52" selection-end-line="34" selection-end-column="52" />
+            <state relative-caret-position="680">
+              <caret line="40" column="32" lean-forward="true" selection-start-line="40" selection-start-column="32" selection-end-line="40" selection-end-column="32" />
+              <folding>
+                <element signature="e#57#75#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -53,7 +71,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -76,10 +93,12 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Part8-DeepLearning" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -138,13 +157,9 @@
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24962178" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25340393" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Python Console" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.7086743" />
@@ -152,11 +167,15 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="R Packages" />
-      <window_info anchor="right" id="R Graphics" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Python Console" order="10" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="R Graphics" order="3" />
+      <window_info anchor="right" id="R Packages" order="4" />
     </layout>
   </component>
   <component name="editorHistoryManager">
@@ -168,8 +187,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Section 36-NaturalLanguageProcessing/Natural_Language_Processing/natural_language_processing.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="544">
-          <caret line="34" column="52" selection-start-line="34" selection-start-column="52" selection-end-line="34" selection-end-column="52" />
+        <state relative-caret-position="680">
+          <caret line="40" column="32" lean-forward="true" selection-start-line="40" selection-start-column="32" selection-end-line="40" selection-end-column="32" />
+          <folding>
+            <element signature="e#57#75#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

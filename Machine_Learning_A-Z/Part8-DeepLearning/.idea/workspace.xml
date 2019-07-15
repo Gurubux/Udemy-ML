@@ -2,7 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="99a32d19-dfe2-4f0f-a01a-21cece14f63b" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../Part4-Clustering/U-PART4-Clustering.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../Part4-Clustering/U-PART4-Clustering.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Part10-ModelSelection&amp;Boosting/.idea/Part10-ModelSelection&amp;Boosting.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Part9-DimensionalityReduction/.idea/Part9-DimensionalityReduction.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Part10-ModelSelection&amp;Boosting/Section48-ModelSelection/Model_Selection/grid_search.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Part10-ModelSelection&amp;Boosting/Section48-ModelSelection/Model_Selection/grid_search.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Part10-ModelSelection&amp;Boosting/Section48-ModelSelection/Model_Selection/k_fold_cross_validation.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Part10-ModelSelection&amp;Boosting/Section48-ModelSelection/Model_Selection/k_fold_cross_validation.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Part10-ModelSelection&amp;Boosting/Section49-XGBoost/XGBoost/xgboost.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Part10-ModelSelection&amp;Boosting/Section49-XGBoost/XGBoost/xgboost.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Part3-Classification/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Part3-Classification/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Part4-Clustering/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Part4-Clustering/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Part5-AssociationRuleLearning/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Part5-AssociationRuleLearning/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Part6-ReinforcementLearning/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Part6-ReinforcementLearning/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Part6-ReinforcementLearning/Section32-UpperConfidenceBound(UCB)/UCB/random_selection.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Part6-ReinforcementLearning/Section32-UpperConfidenceBound(UCB)/UCB/random_selection.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Part7-NaturalLanguageProcessing/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Part7-NaturalLanguageProcessing/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Section39-ArtificialNeuralNetworks(ANN)/Artificial_Neural_Networks/ann.py" beforeDir="false" afterPath="$PROJECT_DIR$/Section39-ArtificialNeuralNetworks(ANN)/Artificial_Neural_Networks/ann.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Part9-DimensionalityReduction/Section43-PrincipalComponentAnalysis(PCA)/PCA/pca.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Part9-DimensionalityReduction/Section43-PrincipalComponentAnalysis(PCA)/PCA/pca.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Part9-DimensionalityReduction/Section44-LinearDiscriminantAnalysis(LDA)/LDA/lda.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Part9-DimensionalityReduction/Section44-LinearDiscriminantAnalysis(LDA)/LDA/lda.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Part9-DimensionalityReduction/Section45-KernelPCA/Kernel_PCA/kernel_pca.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Part9-DimensionalityReduction/Section45-KernelPCA/Kernel_PCA/kernel_pca.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -15,8 +30,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Section39-ArtificialNeuralNetworks(ANN)/Artificial_Neural_Networks/ann.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-527">
-              <caret line="11" column="29" lean-forward="true" selection-start-line="11" selection-start-column="29" selection-end-line="11" selection-end-column="29" />
+            <state relative-caret-position="357">
+              <caret line="21" column="2" selection-start-line="21" selection-start-column="2" selection-end-line="21" selection-end-column="2" />
               <folding>
                 <element signature="e#362#380#0" expanded="true" />
               </folding>
@@ -24,7 +39,51 @@
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Section39-ArtificialNeuralNetworks(ANN)/Artificial_Neural_Networks/Churn_Modelling.csv">
+          <provider selected="true" editor-type-id="csv-text-editor">
+            <state>
+              <caret column="138" selection-end-column="138" />
+            </state>
+          </provider>
+          <provider editor-type-id="csv-table-editor">
+            <state showInfoPanel="true" fixedHeaders="true" rowLines="3">
+              <column index="0" width="100" />
+              <column index="1" width="100" />
+              <column index="2" width="100" />
+              <column index="3" width="100" />
+              <column index="4" width="100" />
+              <column index="5" width="100" />
+              <column index="6" width="100" />
+              <column index="7" width="100" />
+              <column index="8" width="100" />
+              <column index="9" width="100" />
+              <column index="10" width="100" />
+              <column index="11" width="100" />
+              <column index="12" width="100" />
+              <column index="13" width="100" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Section40-ConvolutionalNeuralNetworks(CNN)/Convolutional_Neural_Networks/cnn.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="884">
+              <caret line="52" column="35" selection-start-line="52" selection-start-column="35" selection-end-line="52" selection-end-column="35" />
+              <folding>
+                <element signature="e#382#417#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
     </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>val_acc: 0.8</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
@@ -33,18 +92,6 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/Section39-ArtificialNeuralNetworks(ANN)/Artificial_Neural_Networks/ann.py" />
-      </list>
-    </option>
-  </component>
-  <component name="ProjectConfigurationFiles">
-    <option name="files">
-      <list>
-        <option value="$PROJECT_DIR$/.idea/Part8-DeepLearning.iml" />
-        <option value="$PROJECT_DIR$/.idea/misc.xml" />
-        <option value="$PROJECT_DIR$/.idea/modules.xml" />
-        <option value="$PROJECT_DIR$/.idea/vcs.xml" />
-        <option value="$PROJECT_DIR$/../Part7-NaturalLanguageProcessing/.idea/Part7-NaturalLanguageProcessing.iml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/R_User_Library.xml" />
       </list>
     </option>
   </component>
@@ -68,17 +115,6 @@
               <item name="Part8-DeepLearning" type="b2602c69:ProjectViewProjectNode" />
               <item name="Part8-DeepLearning" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="Part8-DeepLearning" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Part8-DeepLearning" type="462c0819:PsiDirectoryNode" />
-              <item name="Section39-ArtificialNeuralNetworks(ANN)" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Part8-DeepLearning" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Part8-DeepLearning" type="462c0819:PsiDirectoryNode" />
-              <item name="Section39-ArtificialNeuralNetworks(ANN)" type="462c0819:PsiDirectoryNode" />
-              <item name="Artificial_Neural_Networks" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -86,7 +122,8 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Part3-Classification" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RunDashboard">
@@ -101,7 +138,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Python.cnn">
     <configuration name="ann" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Part8-DeepLearning" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -123,8 +160,30 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="cnn" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Part8-DeepLearning" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Section40-ConvolutionalNeuralNetworks(CNN)/Convolutional_Neural_Networks" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Section40-ConvolutionalNeuralNetworks(CNN)/Convolutional_Neural_Networks/cnn.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.cnn" />
         <item itemvalue="Python.ann" />
       </list>
     </recent_temporary>
@@ -144,18 +203,17 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24962178" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24962178" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Version Control" />
       <window_info anchor="bottom" id="Python Console" />
       <window_info anchor="bottom" id="Terminal" weight="0.3289689" />
-      <window_info anchor="bottom" id="Event Log" sideWeight="0.50075644" side_tool="true" weight="0.3289689" />
+      <window_info anchor="bottom" id="Event Log" sideWeight="0.50075644" side_tool="true" weight="0.95090014" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49924356" visible="true" weight="0.3289689" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49924356" weight="0.46972176" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -174,17 +232,54 @@
     <entry file="file://$PROJECT_DIR$/Section39-ArtificialNeuralNetworks(ANN)/Artificial_Neural_Networks/Churn_Modelling.csv">
       <provider selected="true" editor-type-id="csv-text-editor">
         <state>
-          <caret column="138" lean-forward="true" selection-end-column="138" />
+          <caret column="138" selection-end-column="138" />
         </state>
       </provider>
       <provider editor-type-id="csv-table-editor">
-        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
+        <state showInfoPanel="true" fixedHeaders="true" rowLines="3">
+          <column index="0" width="100" />
+          <column index="1" width="100" />
+          <column index="2" width="100" />
+          <column index="3" width="100" />
+          <column index="4" width="100" />
+          <column index="5" width="100" />
+          <column index="6" width="100" />
+          <column index="7" width="100" />
+          <column index="8" width="100" />
+          <column index="9" width="100" />
+          <column index="10" width="100" />
+          <column index="11" width="100" />
+          <column index="12" width="100" />
+          <column index="13" width="100" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Section40-ConvolutionalNeuralNetworks(CNN)/Convolutional_Neural_Networks/dataset/test_set/cats/cat.4002.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Section40-ConvolutionalNeuralNetworks(CNN)/Convolutional_Neural_Networks/dataset/test_set/cats/cat.4001.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Section40-ConvolutionalNeuralNetworks(CNN)/Convolutional_Neural_Networks/dataset/test_set/dogs/dog.4001.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Section40-ConvolutionalNeuralNetworks(CNN)/Convolutional_Neural_Networks/dataset/test_set/dogs/dog.4084.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Section40-ConvolutionalNeuralNetworks(CNN)/Convolutional_Neural_Networks/cnn.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="884">
+          <caret line="52" column="35" selection-start-line="52" selection-start-column="35" selection-end-line="52" selection-end-column="35" />
+          <folding>
+            <element signature="e#382#417#0" expanded="true" />
+          </folding>
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Section39-ArtificialNeuralNetworks(ANN)/Artificial_Neural_Networks/ann.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-527">
-          <caret line="11" column="29" lean-forward="true" selection-start-line="11" selection-start-column="29" selection-end-line="11" selection-end-column="29" />
+        <state relative-caret-position="357">
+          <caret line="21" column="2" selection-start-line="21" selection-start-column="2" selection-end-line="21" selection-end-column="2" />
           <folding>
             <element signature="e#362#380#0" expanded="true" />
           </folding>

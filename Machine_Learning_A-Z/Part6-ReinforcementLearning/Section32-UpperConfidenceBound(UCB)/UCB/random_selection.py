@@ -7,6 +7,12 @@ import pandas as pd
 
 # Importing the dataset
 dataset = pd.read_csv('Ads_CTR_Optimisation.csv')
+# Ad 1,Ad 2,Ad 3,Ad 4,Ad 5,Ad 6,Ad 7,Ad 8,Ad 9,Ad 10
+# 1,0,0,0,1,0,0,0,1,0
+# 0,0,0,0,0,0,0,0,1,0
+# 0,0,0,0,0,0,0,0,0,0
+# 0,1,0,0,0,0,0,1,0,0
+# 0,0,0,0,0,0,0,0,0,0
 
 # Implementing Random Selection
 import random

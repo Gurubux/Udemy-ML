@@ -9,6 +9,9 @@ import pandas as pd
 
 # Importing the dataset
 dataset = pd.read_csv('Churn_Modelling.csv')
+# RowNumber,CustomerId,Surname,CreditScore,Geography,Gender,Age,Tenure,Balance,NumOfProducts,HasCrCard,
+# IsActiveMember,EstimatedSalary,Exited
+
 X = dataset.iloc[:, 3:13].values
 y = dataset.iloc[:, 13].values
 
@@ -43,3 +46,18 @@ from sklearn.model_selection import cross_val_score
 accuracies = cross_val_score(estimator = classifier, X = X_train, y = y_train, cv = 10)
 accuracies.mean()
 accuracies.std()
+
+from sklearn.metrics import classification_report
+print("Classification report")
+print(classification_report(y_test,y_pred))
+
+
+# Classification report
+#               precision    recall  f1-score   support
+#
+#            0       0.89      0.95      0.92      1595
+#            1       0.74      0.51      0.61       405
+#
+#     accuracy                           0.86      2000
+#    macro avg       0.81      0.73      0.76      2000
+# weighted avg       0.86      0.86      0.85      2000

@@ -2,7 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3ce53ed6-532b-4100-bcc1-94d5efd6cab1" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../Part4-Clustering/U-PART4-Clustering.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../Part4-Clustering/U-PART4-Clustering.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Part10-ModelSelection&amp;Boosting/Section48-ModelSelection/Model_Selection/grid_search.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Part10-ModelSelection&amp;Boosting/Section48-ModelSelection/Model_Selection/grid_search.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Part10-ModelSelection&amp;Boosting/Section48-ModelSelection/Model_Selection/k_fold_cross_validation.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Part10-ModelSelection&amp;Boosting/Section48-ModelSelection/Model_Selection/k_fold_cross_validation.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Part10-ModelSelection&amp;Boosting/Section49-XGBoost/XGBoost/xgboost.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Part10-ModelSelection&amp;Boosting/Section49-XGBoost/XGBoost/xgboost.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Part3-Classification/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Part3-Classification/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Part4-Clustering/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Part4-Clustering/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Part5-AssociationRuleLearning/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Part5-AssociationRuleLearning/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Section32-UpperConfidenceBound(UCB)/UCB/random_selection.py" beforeDir="false" afterPath="$PROJECT_DIR$/Section32-UpperConfidenceBound(UCB)/UCB/random_selection.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Part8-DeepLearning/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Part8-DeepLearning/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Part8-DeepLearning/Section39-ArtificialNeuralNetworks(ANN)/Artificial_Neural_Networks/ann.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Part8-DeepLearning/Section39-ArtificialNeuralNetworks(ANN)/Artificial_Neural_Networks/ann.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Part9-DimensionalityReduction/Section43-PrincipalComponentAnalysis(PCA)/PCA/pca.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Part9-DimensionalityReduction/Section43-PrincipalComponentAnalysis(PCA)/PCA/pca.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Part9-DimensionalityReduction/Section44-LinearDiscriminantAnalysis(LDA)/LDA/lda.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Part9-DimensionalityReduction/Section44-LinearDiscriminantAnalysis(LDA)/LDA/lda.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Part9-DimensionalityReduction/Section45-KernelPCA/Kernel_PCA/kernel_pca.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Part9-DimensionalityReduction/Section45-KernelPCA/Kernel_PCA/kernel_pca.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -11,39 +22,48 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Section32-UpperConfidenceBound(UCB)/UCB/random_selection.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="39">
-              <caret line="14" column="17" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
+            <state relative-caret-position="102">
+              <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+              <folding>
+                <element signature="e#46#64#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Section32-UpperConfidenceBound(UCB)/UCB/Ads_CTR_Optimisation.csv">
+          <provider selected="true" editor-type-id="csv-text-editor">
+            <state relative-caret-position="85">
+              <caret line="5" column="19" lean-forward="true" selection-end-line="5" selection-end-column="19" />
+            </state>
+          </provider>
+          <provider editor-type-id="csv-table-editor">
+            <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Section32-UpperConfidenceBound(UCB)/UCB/upper_confidence_bound.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-80">
+              <caret line="22" column="29" selection-start-line="22" selection-start-column="29" selection-end-line="22" selection-end-column="29" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Section32-UpperConfidenceBound(UCB)/UCB/upper_confidence_bound.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="376">
-              <caret line="37" column="25" selection-start-line="37" selection-start-column="25" selection-end-line="37" selection-end-column="25" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Section33-ThompsonSampling/Thompson_Sampling/random_selection.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="17" column="28" selection-start-line="17" selection-start-column="28" selection-end-line="17" selection-end-column="28" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Section33-ThompsonSampling/Thompson_Sampling/thompson_sampling.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="9" selection-start-line="9" selection-end-line="9" />
+            <state relative-caret-position="277">
+              <caret line="22" column="40" selection-start-line="22" selection-start-column="29" selection-end-line="22" selection-end-column="40" />
+              <folding>
+                <element signature="e#47#65#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -52,6 +72,13 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/Section32-UpperConfidenceBound(UCB)/UCB/random_selection.py" />
+      </list>
+    </option>
   </component>
   <component name="ProjectConfigurationFiles">
     <option name="files">
@@ -79,10 +106,32 @@
     </navigator>
     <panes>
       <pane id="Scope" />
-      <pane id="ProjectPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Part6-ReinforcementLearning" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Part6-ReinforcementLearning" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Part6-ReinforcementLearning" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Part6-ReinforcementLearning" type="462c0819:PsiDirectoryNode" />
+              <item name="Section32-UpperConfidenceBound(UCB)" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Part6-ReinforcementLearning" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Part6-ReinforcementLearning" type="462c0819:PsiDirectoryNode" />
+              <item name="Section32-UpperConfidenceBound(UCB)" type="462c0819:PsiDirectoryNode" />
+              <item name="UCB" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../Part7-NaturalLanguageProcessing" />
   </component>
   <component name="RunDashboard">
@@ -185,9 +234,9 @@
     <recent_temporary>
       <list>
         <item itemvalue="Python.thompson_sampling" />
-        <item itemvalue="Python.upper_confidence_bound" />
         <item itemvalue="Python.random_selection (1)" />
         <item itemvalue="Python.random_selection" />
+        <item itemvalue="Python.upper_confidence_bound" />
       </list>
     </recent_temporary>
   </component>
@@ -206,15 +255,10 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24962178" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25340393" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Python Console" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.3289689" />
@@ -222,42 +266,65 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="R Packages" />
-      <window_info anchor="right" id="R Graphics" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Python Console" order="10" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="R Graphics" order="3" />
+      <window_info anchor="right" id="R Packages" order="4" />
     </layout>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Section32-UpperConfidenceBound(UCB)/UCB/random_selection.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="39">
-          <caret line="14" column="17" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Section33-ThompsonSampling/Thompson_Sampling/thompson_sampling.R">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/Section33-ThompsonSampling/Thompson_Sampling/thompson_sampling.py">
+    <entry file="file://$PROJECT_DIR$/Section32-UpperConfidenceBound(UCB)/UCB/Ads_CTR_Optimisation.csv">
+      <provider selected="true" editor-type-id="csv-text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="19" lean-forward="true" selection-end-line="5" selection-end-column="19" />
+        </state>
+      </provider>
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Section32-UpperConfidenceBound(UCB)/UCB/random_selection.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
+        <state relative-caret-position="102">
+          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+          <folding>
+            <element signature="e#46#64#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Section33-ThompsonSampling/Thompson_Sampling/random_selection.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="17" column="28" selection-start-line="17" selection-start-column="28" selection-end-line="17" selection-end-column="28" />
+        <state relative-caret-position="289">
+          <caret line="17" column="28" lean-forward="true" selection-start-line="17" selection-start-column="28" selection-end-line="17" selection-end-column="28" />
+          <folding>
+            <element signature="e#46#64#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Section32-UpperConfidenceBound(UCB)/UCB/upper_confidence_bound.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="376">
-          <caret line="37" column="25" selection-start-line="37" selection-start-column="25" selection-end-line="37" selection-end-column="25" />
+        <state relative-caret-position="-80">
+          <caret line="22" column="29" selection-start-line="22" selection-start-column="29" selection-end-line="22" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Section33-ThompsonSampling/Thompson_Sampling/thompson_sampling.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="277">
+          <caret line="22" column="40" selection-start-line="22" selection-start-column="29" selection-end-line="22" selection-end-column="40" />
+          <folding>
+            <element signature="e#47#65#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

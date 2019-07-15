@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="37b1ef72-50b3-4672-8b2c-72b0f8494d93" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/U-PART4-Clustering.txt" beforeDir="false" afterPath="$PROJECT_DIR$/U-PART4-Clustering.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Part3-Classification/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Part3-Classification/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Part5-AssociationRuleLearning/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Part5-AssociationRuleLearning/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Part8-DeepLearning/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Part8-DeepLearning/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Part8-DeepLearning/Section39-ArtificialNeuralNetworks(ANN)/Artificial_Neural_Networks/ann.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Part8-DeepLearning/Section39-ArtificialNeuralNetworks(ANN)/Artificial_Neural_Networks/ann.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -29,8 +32,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Section25-HierarchicalClustering/Hierarchical_Clustering/hc.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="410">
-              <caret line="44" column="32" selection-start-line="44" selection-start-column="32" selection-end-line="44" selection-end-column="32" />
+            <state relative-caret-position="138">
+              <caret line="28" column="23" lean-forward="true" selection-start-line="28" selection-start-column="23" selection-end-line="28" selection-end-column="23" />
             </state>
           </provider>
         </entry>
@@ -56,16 +59,6 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/Section24 -K-MeansClustering/K_Means/kmeans.py" />
-      </list>
-    </option>
-  </component>
-  <component name="ProjectConfigurationFiles">
-    <option name="files">
-      <list>
-        <option value="$PROJECT_DIR$/.idea/Part4-Clustering.iml" />
-        <option value="$PROJECT_DIR$/.idea/vcs.xml" />
-        <option value="$PROJECT_DIR$/.idea/misc.xml" />
-        <option value="$PROJECT_DIR$/.idea/modules.xml" />
       </list>
     </option>
   </component>
@@ -96,6 +89,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../Part5-AssociationRuleLearning" />
   </component>
   <component name="RunDashboard">
@@ -224,8 +218,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Section25-HierarchicalClustering/Hierarchical_Clustering/hc.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="410">
-          <caret line="44" column="32" selection-start-line="44" selection-start-column="32" selection-end-line="44" selection-end-column="32" />
+        <state relative-caret-position="138">
+          <caret line="28" column="23" lean-forward="true" selection-start-line="28" selection-start-column="23" selection-end-line="28" selection-end-column="23" />
         </state>
       </provider>
     </entry>

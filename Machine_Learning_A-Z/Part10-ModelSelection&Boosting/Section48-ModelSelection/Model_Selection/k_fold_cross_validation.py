@@ -73,3 +73,17 @@ plt.xlabel('Age')
 plt.ylabel('Estimated Salary')
 plt.legend()
 plt.show()
+
+from sklearn.metrics import classification_report
+print("Classification report")
+print(classification_report(y_test,y_pred))
+
+# Classification report
+#               precision    recall  f1-score   support
+#
+#            0       0.96      0.94      0.95        68
+#            1       0.88      0.91      0.89        32
+#
+#     accuracy                           0.93       100
+#    macro avg       0.92      0.92      0.92       100
+# weighted avg       0.93      0.93      0.93       100

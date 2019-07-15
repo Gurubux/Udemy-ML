@@ -2,7 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="97f92792-acdd-42ed-899e-3f008c546cbb" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../Part4-Clustering/U-PART4-Clustering.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../Part4-Clustering/U-PART4-Clustering.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Part10-ModelSelection&amp;Boosting/Section48-ModelSelection/Model_Selection/grid_search.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Part10-ModelSelection&amp;Boosting/Section48-ModelSelection/Model_Selection/grid_search.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Part10-ModelSelection&amp;Boosting/Section48-ModelSelection/Model_Selection/k_fold_cross_validation.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Part10-ModelSelection&amp;Boosting/Section48-ModelSelection/Model_Selection/k_fold_cross_validation.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Part10-ModelSelection&amp;Boosting/Section49-XGBoost/XGBoost/xgboost.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Part10-ModelSelection&amp;Boosting/Section49-XGBoost/XGBoost/xgboost.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Part3-Classification/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Part3-Classification/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Part4-Clustering/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Part4-Clustering/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Part8-DeepLearning/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Part8-DeepLearning/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Part8-DeepLearning/Section39-ArtificialNeuralNetworks(ANN)/Artificial_Neural_Networks/ann.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Part8-DeepLearning/Section39-ArtificialNeuralNetworks(ANN)/Artificial_Neural_Networks/ann.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Part9-DimensionalityReduction/Section43-PrincipalComponentAnalysis(PCA)/PCA/pca.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Part9-DimensionalityReduction/Section43-PrincipalComponentAnalysis(PCA)/PCA/pca.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Part9-DimensionalityReduction/Section44-LinearDiscriminantAnalysis(LDA)/LDA/lda.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Part9-DimensionalityReduction/Section44-LinearDiscriminantAnalysis(LDA)/LDA/lda.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Part9-DimensionalityReduction/Section45-KernelPCA/Kernel_PCA/kernel_pca.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Part9-DimensionalityReduction/Section45-KernelPCA/Kernel_PCA/kernel_pca.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -12,11 +22,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Section28-Apriori/Apriori_Python/apriori.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="19" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
+            <state relative-caret-position="218">
+              <caret line="20" column="12" lean-forward="true" selection-start-line="20" selection-start-column="12" selection-end-line="20" selection-end-column="12" />
               <folding>
                 <element signature="e#37#55#0" expanded="true" />
               </folding>
@@ -24,9 +34,13 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Section28-Apriori/Apriori_Python/Market_Basket_Optimisation.csv">
-          <provider selected="true" editor-type-id="csv-text-editor" />
+          <provider selected="true" editor-type-id="csv-text-editor">
+            <state relative-caret-position="170">
+              <caret line="19" column="36" lean-forward="true" selection-start-line="19" selection-start-column="36" selection-end-line="19" selection-end-column="36" />
+            </state>
+          </provider>
           <provider editor-type-id="csv-table-editor">
             <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
           </provider>
@@ -35,8 +49,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Section28-Apriori/Apriori_Python/apyori.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="124">
-              <caret line="424" column="55" selection-start-line="424" selection-start-column="37" selection-end-line="424" selection-end-column="55" />
+            <state relative-caret-position="-3556">
+              <caret line="186" lean-forward="true" selection-start-line="283" selection-start-column="22" selection-end-line="283" selection-end-column="42" />
             </state>
           </provider>
         </entry>
@@ -66,6 +80,9 @@
         <option value="$PROJECT_DIR$/.idea/vcs.xml" />
         <option value="$PROJECT_DIR$/.idea/modules.xml" />
         <option value="$PROJECT_DIR$/.idea/libraries/R_User_Library.xml" />
+        <option value="$PROJECT_DIR$/../Part6-ReinforcementLearning/.idea/Part6-ReinforcementLearning.iml" />
+        <option value="$PROJECT_DIR$/../Part8-DeepLearning/.idea/Part8-DeepLearning.iml" />
+        <option value="$PROJECT_DIR$/../Part7-NaturalLanguageProcessing/.idea/Part7-NaturalLanguageProcessing.iml" />
       </list>
     </option>
   </component>
@@ -81,6 +98,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -90,38 +108,16 @@
             </path>
             <path>
               <item name="Part5-AssociationRuleLearning" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Part5-AssociationRuleLearning" type="462c0819:PsiDirectoryNode" />
-              <item name="Section28-Apriori" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Part5-AssociationRuleLearning" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Part5-AssociationRuleLearning" type="462c0819:PsiDirectoryNode" />
-              <item name="Section28-Apriori" type="462c0819:PsiDirectoryNode" />
-              <item name="Apriori_Python" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Part5-AssociationRuleLearning" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Part5-AssociationRuleLearning" type="462c0819:PsiDirectoryNode" />
-              <item name="Section29-Eclat" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Part5-AssociationRuleLearning" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Part5-AssociationRuleLearning" type="462c0819:PsiDirectoryNode" />
-              <item name="Section29-Eclat" type="462c0819:PsiDirectoryNode" />
-              <item name="Eclat" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Part5-AssociationRuleLearning" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../Part6-ReinforcementLearning" />
     <property name="settings.editor.selected.configurable" value="configurable.group.tools" />
   </component>
@@ -218,14 +214,13 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25416037" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2579425" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49924356" visible="true" weight="0.39770868" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49924356" weight="0.39770868" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -234,14 +229,34 @@
       <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49924356" weight="0.3289689" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50075644" side_tool="true" weight="0.95090014" />
       <window_info anchor="bottom" id="Python Console" order="10" sideWeight="0.49924356" weight="0.3289689" />
-      <window_info anchor="right" id="R Packages" weight="0.32980332" />
-      <window_info anchor="right" id="R Graphics" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="R Graphics" order="3" />
+      <window_info anchor="right" id="R Packages" order="4" weight="0.32980332" />
     </layout>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/Section28-Apriori/Apriori_Python/apyori.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3556">
+          <caret line="186" lean-forward="true" selection-start-line="283" selection-start-column="22" selection-end-line="283" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Section28-Apriori/Apriori_Python/apriori.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="218">
+          <caret line="20" column="12" lean-forward="true" selection-start-line="20" selection-start-column="12" selection-end-line="20" selection-end-column="12" />
+          <folding>
+            <element signature="e#37#55#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Section29-Eclat/Eclat/eclat.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/Section29-Eclat/Eclat/eclat.R">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
@@ -250,26 +265,13 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Section28-Apriori/Apriori_Python/Market_Basket_Optimisation.csv">
-      <provider selected="true" editor-type-id="csv-text-editor" />
+      <provider selected="true" editor-type-id="csv-text-editor">
+        <state relative-caret-position="170">
+          <caret line="19" column="36" lean-forward="true" selection-start-line="19" selection-start-column="36" selection-end-line="19" selection-end-column="36" />
+        </state>
+      </provider>
       <provider editor-type-id="csv-table-editor">
         <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Section28-Apriori/Apriori_Python/apyori.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="124">
-          <caret line="424" column="55" selection-start-line="424" selection-start-column="37" selection-end-line="424" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Section28-Apriori/Apriori_Python/apriori.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="19" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
-          <folding>
-            <element signature="e#37#55#0" expanded="true" />
-          </folding>
-        </state>
       </provider>
     </entry>
   </component>

@@ -73,3 +73,18 @@ plt.xlabel('LD1')
 plt.ylabel('LD2')
 plt.legend()
 plt.show()
+
+from sklearn.metrics import classification_report
+print("Classification report")
+print(classification_report(y_test,y_pred))
+
+# Classification report
+#               precision    recall  f1-score   support
+#
+#            1       1.00      1.00      1.00        14
+#            2       1.00      1.00      1.00        16
+#            3       1.00      1.00      1.00         6
+#
+#     accuracy                           1.00        36
+#    macro avg       1.00      1.00      1.00        36
+# weighted avg       1.00      1.00      1.00        36

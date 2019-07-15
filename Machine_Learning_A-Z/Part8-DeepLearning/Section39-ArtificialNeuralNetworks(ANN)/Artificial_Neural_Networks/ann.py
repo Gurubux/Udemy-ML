@@ -18,7 +18,8 @@ import pandas as pd
 
 # Importing the dataset
 dataset = pd.read_csv('Churn_Modelling.csv')
-# RowNumber,CustomerId,Surname,CreditScore,Geography,Gender,Age,Tenure,Balance,NumOfProducts,HasCrCard,IsActiveMember,EstimatedSalary,Exited
+# RowNumber,CustomerId,Surname,CreditScore,Geography,Gender,Age,Tenure,Balance,NumOfProducts,
+# HasCrCard,IsActiveMember,EstimatedSalary,Exited
 X = dataset.iloc[:, 3:13].values
 y = dataset.iloc[:, 13].values
 
