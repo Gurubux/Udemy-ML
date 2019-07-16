@@ -2,10 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="33db3eab-6a33-4f7c-8781-108b2a22489f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../Part10-ModelSelection&amp;Boosting/.idea/Part10-ModelSelection&amp;Boosting.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Part9-DimensionalityReduction/.idea/Part9-DimensionalityReduction.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Part10-ModelSelection&amp;Boosting/Section48-ModelSelection/Model_Selection/grid_search.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Part10-ModelSelection&amp;Boosting/Section48-ModelSelection/Model_Selection/grid_search.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Part10-ModelSelection&amp;Boosting/Section48-ModelSelection/Model_Selection/k_fold_cross_validation.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Part10-ModelSelection&amp;Boosting/Section48-ModelSelection/Model_Selection/k_fold_cross_validation.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Part10-ModelSelection&amp;Boosting/Section49-XGBoost/XGBoost/xgboost.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Part10-ModelSelection&amp;Boosting/Section49-XGBoost/XGBoost/xgboost.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Part4-Clustering/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Part4-Clustering/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Part5-AssociationRuleLearning/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Part5-AssociationRuleLearning/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Part6-ReinforcementLearning/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Part6-ReinforcementLearning/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Part6-ReinforcementLearning/Section32-UpperConfidenceBound(UCB)/UCB/random_selection.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Part6-ReinforcementLearning/Section32-UpperConfidenceBound(UCB)/UCB/random_selection.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Part7-NaturalLanguageProcessing/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Part7-NaturalLanguageProcessing/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Part8-DeepLearning/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Part8-DeepLearning/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Part8-DeepLearning/Section39-ArtificialNeuralNetworks(ANN)/Artificial_Neural_Networks/ann.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Part8-DeepLearning/Section39-ArtificialNeuralNetworks(ANN)/Artificial_Neural_Networks/ann.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Part9-DimensionalityReduction/Section43-PrincipalComponentAnalysis(PCA)/PCA/pca.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Part9-DimensionalityReduction/Section43-PrincipalComponentAnalysis(PCA)/PCA/pca.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Part9-DimensionalityReduction/Section44-LinearDiscriminantAnalysis(LDA)/LDA/lda.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Part9-DimensionalityReduction/Section44-LinearDiscriminantAnalysis(LDA)/LDA/lda.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Part9-DimensionalityReduction/Section45-KernelPCA/Kernel_PCA/kernel_pca.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Part9-DimensionalityReduction/Section45-KernelPCA/Kernel_PCA/kernel_pca.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -18,7 +30,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Section14-LogisticRegression/Classification_Template/classification_template.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
+            <state relative-caret-position="187">
               <caret line="11" column="29" selection-start-line="11" selection-start-column="29" selection-end-line="11" selection-end-column="29" />
               <folding>
                 <element signature="e#53#71#0" expanded="true" />
@@ -30,7 +42,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Section14-LogisticRegression/Logistic_Regression/logistic_regression.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
+            <state relative-caret-position="391">
               <caret line="23" selection-start-line="23" selection-end-line="25" selection-end-column="32" />
               <folding>
                 <element signature="e#49#67#0" expanded="true" />
@@ -88,7 +100,7 @@
         <entry file="file://$PROJECT_DIR$/Section20-RandomForestClassification/Random_Forest_Classification/random_forest_classification.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="189">
-              <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+              <caret line="21" selection-start-line="21" selection-end-line="21" />
             </state>
           </provider>
         </entry>
@@ -145,8 +157,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -296,9 +308,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2579425" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26172465" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -312,17 +323,17 @@
       <window_info anchor="bottom" id="Terminal" order="8" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" weight="0.3289689" />
       <window_info anchor="bottom" id="Python Console" order="10" />
-      <window_info anchor="right" id="R Packages" />
-      <window_info anchor="right" id="R Graphics" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.24962178" />
+      <window_info anchor="right" id="R Graphics" order="3" />
+      <window_info anchor="right" id="R Packages" order="4" />
     </layout>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/Section14-LogisticRegression/Classification_Template/classification_template.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
+        <state relative-caret-position="187">
           <caret line="11" column="29" selection-start-line="11" selection-start-column="29" selection-end-line="11" selection-end-column="29" />
           <folding>
             <element signature="e#53#71#0" expanded="true" />
@@ -332,7 +343,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Section14-LogisticRegression/Logistic_Regression/logistic_regression.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
+        <state relative-caret-position="391">
           <caret line="23" selection-start-line="23" selection-end-line="25" selection-end-column="32" />
           <folding>
             <element signature="e#49#67#0" expanded="true" />
@@ -388,7 +399,7 @@
     <entry file="file://$PROJECT_DIR$/Section20-RandomForestClassification/Random_Forest_Classification/random_forest_classification.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="189">
-          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+          <caret line="21" selection-start-line="21" selection-end-line="21" />
         </state>
       </provider>
     </entry>

@@ -4,7 +4,14 @@ Part 5: Association Rule Learning
 **********************************************************************************************
 Section 28 - Apriori
 **********************************************************************************************
+Apriori
+	https://www.kaggle.com/yugagrawal95/market-basket-analysis-apriori-in-python
+		Method 1 : from mlxtend.frequent_patterns import apriori
 
+		Method 2 : from apyori import apriori
+
+Frequent Pattern Growth algorithm- (FP-Growth)
+	- import pyfpgrowth
 
 **********************************************************************************************
 Section 29 - Eclat
@@ -13,4 +20,17 @@ Section 29 - Eclat
 
 
 
+**********************************************************************************************
+https://pdfs.semanticscholar.org/d405/8d9f3f66c53ddea776c974fbd740afd994b4.pdf
 
+Apriori, Eclat or FP-Growth Frequent Itemset Mining Algorithms
+https://arxiv.org/pdf/1701.09042.pdf
+
+Apriori is an easily understandable frequent itemset mining algorithm. Because of this, Apriori is a popular starting point for frequent itemset study. However, Apriori has serious scalability issues and exhausts available memory much faster than Eclat and FP-Growth. Because of this Apriori should not be used for large datasets. 
+
+Most frequent itemset applications should consider using either FP-Growth or Eclat. These two algorithms performed similarly for this paper’s research, though FP-Growth did show slightly better performance than Eclat. Other papers also recommend FP-Growth for most cases. 
+
+Frequent itemset mining is an area of active research. New algorithms, as well as modifications of existing algorithms are often introduced. For an application where performance is critical, it is important to evaluate the dataset with newer algorithms as they are introduced, and shown to have better performance than FPGrowth or Eclat.
+
+
+http://www.borgelt.net/pyfim.html
