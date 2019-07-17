@@ -17,3 +17,41 @@ Section 44 - Linear Discriminant Analysis (LDA)
 **********************************************************************************************
 Section 45 - Kernel PCA
 **********************************************************************************************
+
+
+
+
+
+
+**********************************************************************************************
+https://www.analyticsvidhya.com/blog/2018/08/dimensionality-reduction-techniques-python/
+Factor Analysis
+t-Distributed Stochastic Neighbor Embedding (t-SNE) - https://www.analyticsvidhya.com/blog/2017/01/t-sne-implementation-r-python/
+Independent Component Analysis(ICA)
+
+
+Principal Component Analysis (PCA)
+Linear Discriminant Analysis (LDA)
+Generalized Discriminant Analysis (GDA)	
+
+Singular Value Decomposition (SVD)
+
+
+**********************************************************************************************
+https://www.analyticsvidhya.com/blog/2017/03/questions-dimensionality-reduction-data-scientist/
+
+*********************************************************************************************************************
+https://www.analyticsvidhya.com/blog/2018/04/visualize-manipulate-high-dimensional-data-using-hypertools/
+
+
+********************************************************************************************************************************************
+https://raw.githubusercontent.com/Gurubux/Udemy-ML/master/Machine_Learning_A-Z/Part9-DimensionalityReduction/Dimensionality_Reduction_Chart.png
+
+**********************************************************************************************
+https://towardsdatascience.com/dimensionality-reduction-for-machine-learning-80a46c2ebb7e
+
+**********************************************************************************************
+https://www.kdnuggets.com/2015/05/7-methods-data-dimensionality-reduction.html
+
+**********************************************************************************************
+https://www.analyticsindiamag.com/understanding-dimensionality-reduction-techniques-to-filter-out-noisy-data/
